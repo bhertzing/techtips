@@ -240,7 +240,10 @@
 
 </div>
 
-  <p>A quick script to watch a site to see if it remains online.  Checks every five seconds.</p>
+  <p>Intro:
+A quick script to watch a website to see if it remains online.  Checks every five seconds.  This is different than doing a simple ping check as it actually takes a look at the site and returns a status code.  This is especially useful if you want to make sure a site is up during a critical event.</p>
+
+<hr>
 
 <pre><code>while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent"; sleep 5}</code></pre>
 
@@ -248,7 +251,7 @@
 
 <pre><code>while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "StatusCode"; sleep 5}</code></pre>
 
-<p>You can test just by running</p>
+<p>To see everything you can filter for, run this &lsquo;curl&rsquo; command against the domain in question.</p>
 
 <pre><code>curl DOMAIN_NAME.COM</code></pre>
 

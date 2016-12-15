@@ -254,12 +254,14 @@
   </header>
 
   <p>
-  A quick script to watch a site to see if it remains online. Checks every five seconds.
-while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent"; sleep 5} Or
-while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "StatusCode"; sleep 5} You can test just by running
-curl DOMAIN_NAME.COM  Reference: Wiki: List of HTTP status codes
+  Intro: A quick script to watch a website to see if it remains online. Checks every five seconds. This is different than doing a simple ping check as it actually takes a look at the site and returns a status code. This is especially useful if you want to make sure a site is up during a critical event.
+ while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent"; sleep 5} Or
   </p>
 
+  
+  <footer>
+    <a href="http://techtips.billhertzing.com/post/watch-a-site-using-powershell/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
   
 </article>
 

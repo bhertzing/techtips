@@ -254,7 +254,8 @@
 
   <p>
   A quick script to watch a site to see if it remains online. Checks every five seconds.
-while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent Date"; sleep 5} 
+while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent"; sleep 5} Or
+while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "StatusCode"; sleep 5} List of Status Codes
   </p>
 
   

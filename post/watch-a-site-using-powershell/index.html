@@ -242,7 +242,13 @@
 
   <p>A quick script to watch a site to see if it remains online.  Checks every five seconds.</p>
 
-<pre><code>while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent Date"; sleep 5}</code></pre>
+<pre><code>while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent"; sleep 5}</code></pre>
+
+<p>Or</p>
+
+<pre><code>while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "StatusCode"; sleep 5}</code></pre>
+
+<p><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">List of Status Codes</a></p>
 
 
   

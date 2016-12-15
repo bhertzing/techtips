@@ -23,7 +23,11 @@
 
 &lt;pre&gt;&lt;code&gt;while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr &#34;StatusCode&#34;; sleep 5}&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_HTTP_status_codes&#34; target=&#34;_blank&#34;&gt;Wiki: List of HTTP status codes&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;Reference:
+&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_HTTP_status_codes&#34;&gt;List of HTTP status codes&lt;/a&gt;{:target=&amp;rdquo;_blank&amp;rdquo;}
+&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_HTTP_status_codes&#34; target=&#34;_blank&#34;&gt;Wiki: List of HTTP status codes&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

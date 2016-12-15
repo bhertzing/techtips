@@ -11,12 +11,14 @@
     <atom:link href="http://techtips.billhertzing.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>watch a site using powershell</title>
+      <title>Watch a site using Powershell</title>
       <link>http://techtips.billhertzing.com/post/watch-a-site-using-powershell/</link>
       <pubDate>Thu, 15 Dec 2016 10:47:21 -0600</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/watch-a-site-using-powershell/</guid>
-      <description>&lt;p&gt;Test Post&lt;/p&gt;
+      <description>&lt;p&gt;A quick script to watch a site to see if it remains online.  Checks every five seconds.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr &amp;ldquo;RawContent Date&amp;rdquo;; sleep 5}&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     

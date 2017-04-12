@@ -40,7 +40,7 @@ A quick script to watch a website to see if it remains online.  Checks every one
       <pubDate>Thu, 15 Dec 2016 10:47:21 -0600</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/watch-a-site-using-powershell/</guid>
-      <description>&lt;p&gt;Intro:
+      <description>&lt;p&gt;Introduction:
 A quick script to watch a website to see if it remains online.  Checks every five seconds.  This is different than doing a simple ping check as it actually takes a look at the site and returns a status code.  This is especially useful if you want to make sure a site is up during a critical event.&lt;/p&gt;
 
 &lt;hr&gt;

@@ -55,6 +55,10 @@ A quick script to watch a website to see if it remains online.  Checks every fiv
 
 &lt;pre&gt;&lt;code&gt;curl DOMAIN_NAME.COM&lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;&lt;b&gt;UPDATE:&lt;/b&gt; A YouTube commenter (Peronnik Beijer) provided the following script that is much more simple.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;while ($true) { curl google.com | select &#34;statuscode&#34;; sleep 3}﻿&lt;/code&gt;&lt;/pre&gt;
+
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BW7tn0tkhdE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;hr&gt;

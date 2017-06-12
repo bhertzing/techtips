@@ -7,8 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Bill Hertzing 2016.</copyright>
-    <lastBuildDate>Tue, 20 Dec 2016 10:47:21 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jun 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://techtips.billhertzing.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Script to Generate Kernel Panic</title>
+      <link>http://techtips.billhertzing.com/post/kernel-panic/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://techtips.billhertzing.com/post/kernel-panic/</guid>
+      <description>
+
+&lt;p&gt;This is a good tool to use to test what event cascade when a server crashes.&lt;/p&gt;
+
+&lt;h3 id=&#34;warning-use-at-your-own-risk:63a129f71a2bf8574a85db96cb4c15f5&#34;&gt;&lt;strong&gt;WARNING USE AT YOUR OWN RISK&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;echo c &amp;gt; /proc/sysrq-trigger&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;warning-use-at-your-own-risk-1:63a129f71a2bf8574a85db96cb4c15f5&#34;&gt;&lt;strong&gt;WARNING USE AT YOUR OWN RISK&lt;/strong&gt;&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>Watch a site in BASH</title>

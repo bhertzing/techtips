@@ -20,11 +20,11 @@
 
 &lt;p&gt;This is a good tool to use to test what event cascade when a server crashes.&lt;/p&gt;
 
-&lt;h3 id=&#34;warning-use-at-your-own-risk:63a129f71a2bf8574a85db96cb4c15f5&#34;&gt;&lt;strong&gt;WARNING USE AT YOUR OWN RISK&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;warning-use-at-your-own-risk:63a129f71a2bf8574a85db96cb4c15f5&#34;&gt;WARNING: USE AT YOUR OWN RISK&lt;/h3&gt;
 
 &lt;p&gt;&lt;pre&gt;&lt;code&gt;echo c &amp;gt; /proc/sysrq-trigger&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;warning-use-at-your-own-risk-1:63a129f71a2bf8574a85db96cb4c15f5&#34;&gt;&lt;strong&gt;WARNING USE AT YOUR OWN RISK&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;warning-use-at-your-own-risk-1:63a129f71a2bf8574a85db96cb4c15f5&#34;&gt;WARNING: USE AT YOUR OWN RISK&lt;/h3&gt;
 
 &lt;p&gt;Source: &lt;a href=&#34;https://unix.stackexchange.com/questions/66197/how-to-cause-kernel-panic-with-a-single-command&#34;&gt;https://unix.stackexchange.com/questions/66197/how-to-cause-kernel-panic-with-a-single-command&lt;/a&gt;&lt;/p&gt;
 </description>

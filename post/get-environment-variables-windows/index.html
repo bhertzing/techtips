@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.16-DEV" />
 
-  <title>Bill&#39;s Tech Tips</title>
+  <title>GET ENVIRONMENT VARIABLES &middot; Bill&#39;s Tech Tips</title>
 
   
   
@@ -36,8 +36,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
   
-  
-  <link rel="alternate" type="application/rss+xml" title="Bill&#39;s Tech Tips" href="http://techtips.billhertzing.com/index.xml" />
   
 
   
@@ -109,10 +107,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="http://techtips.billhertzing.com/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-    </li>
     
 
     
@@ -216,17 +210,12 @@
 
 
 <div class="header">
-  <h1>Bill&#39;s Tech Tips</h1>
-  <h2>Helpful Tips Collected Over Time</h2>
+  <h1>GET ENVIRONMENT VARIABLES</h1>
+  <h2></h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="http://techtips.billhertzing.com/post/get-environment-variables-windows/">GET ENVIRONMENT VARIABLES</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -265,129 +254,39 @@
 
 </div>
 
-  </header>
+  <p>This Powershell command will print out a list of environment variables in the system.</p>
 
-  <p>
-  This Powershell command will print out a list of environment variables in the system. Get-ChildItem Env:
-  </p>
+<pre><code>Get-ChildItem Env:</code></pre>
 
-  
-</article>
 
   
-    <article>
-  <header>
-    <h2><a href="http://techtips.billhertzing.com/post/watch-a-site-in-bash/">Watch a site in BASH</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>20 Dec 2016, 10:47</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
     
-      <a class="post-taxonomy-topic" href="http://techtips.billhertzing.com/topics/linux">Linux</a>
+    <a href="http://techtips.billhertzing.com/post/watch-a-site-in-bash/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+  <div class="pure-u-10-24">
     
-      <a class="post-taxonomy-tag" href="http://techtips.billhertzing.com/tags/bash">bash</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="http://techtips.billhertzing.com/tags/command-line">Command Line</a>
+    <nav class="prev">
+      <a href="http://techtips.billhertzing.com/post/watch-a-site-in-bash/">Watch a site in BASH</a>
+    </nav>
     
   </div>
-  
-  
-
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
 </div>
 
-  </header>
 
-  <p>
-  Introduction: A quick script to watch a website to see if it remains online. Checks every one second. This is different than doing a simple ping check as it actually takes a look at the site and returns a status code. This is especially useful if you want to make sure a site is up during a critical event. The &lsquo;watch&rsquo; command is used to execute scripts or commands at a regular intervals.
-  </p>
 
   
-  <footer>
-    <a href="http://techtips.billhertzing.com/post/watch-a-site-in-bash/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="http://techtips.billhertzing.com/post/watch-a-site-using-powershell/">Watch a site using Powershell</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>15 Dec 2016, 10:47</time>
-  </div>
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-folder fa-fw"></i>
-    
-      <a class="post-taxonomy-topic" href="http://techtips.billhertzing.com/topics/windows">Windows</a>
-    
-  </div>
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="http://techtips.billhertzing.com/tags/powershell">Powershell</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="http://techtips.billhertzing.com/tags/command-line">Command Line</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  Introduction: A quick script to watch a website to see if it remains online. Checks every five seconds. This is different than doing a simple ping check as it actually takes a look at the site and returns a status code. This is especially useful if you want to make sure a site is up during a critical event. while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent"; sleep 5} Or while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "StatusCode"; sleep 5} To see everything you can filter for, run this &lsquo;curl&rsquo; command against the domain in question.
-  </p>
-
-  
-  <footer>
-    <a href="http://techtips.billhertzing.com/post/watch-a-site-using-powershell/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-
-  
-
 
 </div>
 

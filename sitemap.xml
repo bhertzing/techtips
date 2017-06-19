@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://techtips.billhertzing.com/</loc>
-    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/post/powershell_execution_policy/</loc>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>

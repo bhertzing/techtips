@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Windows on Bill&#39;s Tech Tips</title>
-    <link>http://techtips.billhertzing.com/tags/windows/</link>
-    <description>Recent content in Windows on Bill&#39;s Tech Tips</description>
+    <title>Log on Bill&#39;s Tech Tips</title>
+    <link>http://techtips.billhertzing.com/tags/log/</link>
+    <description>Recent content in Log on Bill&#39;s Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Bill Hertzing 2016.</copyright>
     <lastBuildDate>Mon, 19 Jun 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://techtips.billhertzing.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Create or Change PowerShell Execution Policy</title>
-      <link>http://techtips.billhertzing.com/post/powershell_execution_policy/</link>
-      <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://techtips.billhertzing.com/post/powershell_execution_policy/</guid>
-      <description>&lt;p&gt;Many times you will need to set this execution policy to run Powershell scripts&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;set-executionpolicy -scope CurrentUser Unrestricted&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
+    <atom:link href="http://techtips.billhertzing.com/tags/log/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Windows Event Log Forensics</title>
@@ -207,18 +195,6 @@ Type 10 – RemoteInteractive (RDP connections)
 Type 11 – CachedInteractive (not connected to domain)&lt;/p&gt;
 
 &lt;p&gt;Source: &lt;a href=&#34;https://isc.sans.edu/forums/diary/Windows+Events+log+for+IRForensics+Part+1/21493/&#34;&gt;https://isc.sans.edu/forums/diary/Windows+Events+log+for+IRForensics+Part+1/21493/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Get Environment Variables - Windows</title>
-      <link>http://techtips.billhertzing.com/post/get-environment-variables-windows/</link>
-      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://techtips.billhertzing.com/post/get-environment-variables-windows/</guid>
-      <description>&lt;p&gt;This Powershell command will print out a list of environment variables in the system.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Get-ChildItem Env:&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

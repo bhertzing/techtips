@@ -269,6 +269,61 @@
   
     <article>
   <header>
+    <h2><a href="http://techtips.billhertzing.com/post/windows_event_log_forensics/">Windows Event Log Forensics</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>Jun 19, 2017</time>
+  </div>
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="http://techtips.billhertzing.com/topics/windows">Windows</a>
+    
+  </div>
+  
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://techtips.billhertzing.com/tags/windows">windows</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://techtips.billhertzing.com/tags/log">log</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  In the time of incidents, Windows Event logs provide a plenty of useful information for the Incident responder.As you know Windows can generate thousands of events in few minutes ,in this diary I will talk about some of the most useful events and in the next diary I would discuss how to use PowerShell to search for them . Here is of the most useful events for Forensics/Incident response: Event ID Description Log Name 4624 Successful Logon Security 4625 Failed Login Security 4776 Successful /Failed Account Authentication Security 4720 A user account was created Security 4732 A member was added to a security-enabled local group Security 4728 A member was added to a security-enabled global group Security 7030 Service Creation Errors System 7045 Service Creation System One of the useful information that Successful/Failed Logon event provide is how the user/process tried to logon (Logon Type ) but Windows display this information as a number and here is a list of the logon type and their explanation Logon Type Explanation 2 Logon via console 3 Network Logon, A user or computer logged on to this computer from the network.
+  </p>
+
+  
+  <footer>
+    <a href="http://techtips.billhertzing.com/post/windows_event_log_forensics/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
     <h2><a href="http://techtips.billhertzing.com/post/get-environment-variables-windows/">Get Environment Variables - Windows</a></h2>
 
     <div class="post-meta">

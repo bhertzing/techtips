@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.16-DEV" />
 
-  <title>Windows Event Log Forensics &middot; Bill&#39;s Tech Tips</title>
+  <title>Tips &middot; Bill&#39;s Tech Tips</title>
 
   
   
@@ -36,6 +36,8 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
   
+  
+  <link rel="alternate" type="application/rss+xml" title="Bill&#39;s Tech Tips" href="http://techtips.billhertzing.com/tags/tips/index.xml" />
   
 
   
@@ -101,6 +103,10 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="http://techtips.billhertzing.com/tags/tips/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+    </li>
     
 
     
@@ -204,12 +210,16 @@
 
 
 <div class="header">
-  <h1>Windows Event Log Forensics</h1>
-  <h2></h2>
+  <h1>Tips</h1>
 </div>
-<div class="content">
 
-  <div class="post-meta">
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="http://techtips.billhertzing.com/post/windows_event_log_forensics/">Windows Event Log Forensics</a></h2>
+
+    <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -252,222 +262,20 @@
 
 </div>
 
-  <p>In the time of incidents, Windows Event logs provide a plenty of useful information for the Incident responder.As you know Windows can generate thousands of events in few minutes ,in this diary I will talk about some of the most useful events and in the next diary I would discuss how to use PowerShell to search for them .</p>
-
-<p>Here is of the most useful events for Forensics/Incident response:</p>
-
-<p>Event ID</p>
-
-<p>Description</p>
-
-<p>Log Name</p>
-
-<p>4624</p>
-
-<p>Successful Logon</p>
-
-<p>Security</p>
-
-<p>4625</p>
-
-<p>Failed Login</p>
-
-<p>Security</p>
-
-<p>4776</p>
-
-<p>Successful /Failed Account Authentication</p>
-
-<p>Security</p>
-
-<p>4720</p>
-
-<p>A user account was created</p>
-
-<p>Security</p>
-
-<p>4732</p>
-
-<p>A member was added to a</p>
-
-<p>security-enabled local group</p>
-
-<p>Security</p>
-
-<p>4728</p>
-
-<p>A member was added to a security-enabled global group</p>
-
-<p>Security</p>
-
-<p>7030</p>
-
-<p>Service Creation Errors</p>
-
-<p>System</p>
-
-<p>7045</p>
-
-<p>Service Creation</p>
-
-<p>System</p>
-
-<p>One of the useful information that Successful/Failed Logon event provide is how the user/process tried to logon (Logon Type ) but Windows display this information as a number and here is a list of the logon type and their explanation</p>
-
-<p>Logon Type</p>
-
-<p>Explanation</p>
-
-<p>2</p>
-
-<p>Logon via console</p>
-
-<p>3</p>
-
-<p>Network Logon, A user or computer logged on to this computer from the network.</p>
-
-<p>4</p>
-
-<p>Batch logon</p>
-
-<p>5</p>
-
-<p>Windows Service Logon</p>
-
-<p>7</p>
-
-<p>Credentials used to unlock screen</p>
-
-<p>8</p>
-
-<p>Network logon sending credentials (cleartext)</p>
-
-<p>9</p>
-
-<p>Different credentials used than logged on user</p>
-
-<p>10</p>
-
-<p>Remote interactive logon (RDP)</p>
-
-<p>11</p>
-
-<p>Cached credentials used to logon</p>
-
-<p>12</p>
-
-<p>Cached remote interactive</p>
-
-<p>13</p>
-
-<p>Cached unlock (Similar to logon type 7)</p>
-
-<p>In the next diary I would show some examples how to use PowerShell to search Windows Events of a compromised system</p>
-
-<p>Basil</p>
-
-<p>47 POSTS
-ISC HANDLER
-Reply Subscribe 1 week ago
-Good one – would like to add more</p>
-
-<p>Logon failure events</p>
-
-<p>0xC0000064 User name does not exist
-0xC000006A User name is correct but the password is wrong
-0xC0000234 User is currently locked out
-0xC0000072 Account is currently disabled
-0xC000006F User tried to logon outside his day of week or time of day restrictions
-0xC0000070 Workstation restriction
-0xC00000193 Account expiration
-0xC0000071 Expired password
-0xC0000133 Clocks between DC and other computer too far out of sync
-0xC0000224 User is required to change password at next logon
-0xC0000225 Evidently a bug in Windows and not a risk
-0xC000015b “The user has not been granted the requested logon”</p>
-
-<p>Logon sessions</p>
-
-<p>4647 user initiated logon
-4800 Workstation Locked
-4801 Workstation unlocked
-4802 Screen saver loaded
-4803 Screen saver dismissed
-4778 RDP reconnected
-4779 RDP disconnected</p>
-
-<p>User account changes</p>
-
-<p>4720 Created
-4722 Enabled
-4723 User changed own password
-4724 Privileged User changed this user’s password
-4725 Disabled
-4726 Deleted
-4738 Changed
-4740 Locked out
-4767 Unlocked
-4781 Name change
-makflwana</p>
-
-<p>17 POSTS POSTS
-Reply Quote 1 week ago
-Should probably also include 4756 – user added to security enabled universal group
-Jaybone</p>
-
-<p>26 POSTS POSTS
-Reply Quote 1 week ago
-I keep this one in Onenote… very relevant when troubleshooting Windows event logs:</p>
-
-<p>Logon Types
-Type 2 – Interactive (console login)
-Type 3 – Network
-Type 4 – Batch (scheduled tasks)
-Type 5 – Services
-Type 7 – Unlock
-Type 8 – Network (cleartext)
-Type 9 – NewCredentials (RunAs)
-Type 10 – RemoteInteractive (RDP connections)
-Type 11 – CachedInteractive (not connected to domain)</p>
-
-<p>Source: <a href="https://isc.sans.edu/forums/diary/Windows+Events+log+for+IRForensics+Part+1/21493/">https://isc.sans.edu/forums/diary/Windows+Events+log+for+IRForensics+Part+1/21493/</a></p>
-
+  </header>
+
+  <p>
+  In the time of incidents, Windows Event logs provide a plenty of useful information for the Incident responder.As you know Windows can generate thousands of events in few minutes ,in this diary I will talk about some of the most useful events and in the next diary I would discuss how to use PowerShell to search for them . Here is of the most useful events for Forensics/Incident response: Event ID Description Log Name 4624 Successful Logon Security 4625 Failed Login Security 4776 Successful /Failed Account Authentication Security 4720 A user account was created Security 4732 A member was added to a security-enabled local group Security 4728 A member was added to a security-enabled global group Security 7030 Service Creation Errors System 7045 Service Creation System One of the useful information that Successful/Failed Logon event provide is how the user/process tried to logon (Logon Type ) but Windows display this information as a number and here is a list of the logon type and their explanation Logon Type Explanation 2 Logon via console 3 Network Logon, A user or computer logged on to this computer from the network.
+  </p>
 
   
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
-    
-    <a href="http://techtips.billhertzing.com/post/get-environment-variables-windows/"><i class="fa fa-chevron-left"></i></a>
-    
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="http://techtips.billhertzing.com/post/get-environment-variables-windows/">Get Environment Variables - Windows</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="next">
-      <a href="http://techtips.billhertzing.com/post/powershell_execution_policy/">Create or Change PowerShell Execution Policy</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="http://techtips.billhertzing.com/post/powershell_execution_policy/"><i class="fa fa-chevron-right"></i></a>
-    
-  </div>
-</div>
-
-
+  <footer>
+    <a href="http://techtips.billhertzing.com/post/windows_event_log_forensics/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
 
   
-
 </div>
 
 </div>
@@ -490,4 +298,3 @@ Type 11 – CachedInteractive (not connected to domain)</p>
 
 </body>
 </html>
-

@@ -18,20 +18,10 @@
       <guid>http://techtips.billhertzing.com/post/taskwarrior_notes/</guid>
       <description>
 
-&lt;p&gt;Notes from Taskwarrior Youtube Lessons that can be found at the links below.&lt;/p&gt;
-
-&lt;p&gt;[MyWikiPage]       # Wiki - name of wiki page
-[#123]             # Tracker - ticket number&lt;/p&gt;
-
-&lt;p&gt;two part links
-[bugs:#1]
-[features:#1]&lt;/p&gt;
-
-&lt;p&gt;Three part links
-[allura:wiki:Home]&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;#L1&#34;&gt;Taskwarrior Lesson 01&lt;/a&gt;
-&lt;a href=&#34;#L1&#34;&gt;Taskwarrior Lesson 02&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notes from Taskwarrior Youtube Lessons that can be found at the links below.
+&lt;a name=&#34;top&#34;&gt;&lt;/a&gt;
+* &lt;a href=&#34;#L1&#34;&gt;Taskwarrior Lesson 01&lt;/a&gt;
+* &lt;a href=&#34;#L2&#34;&gt;Taskwarrior Lesson 02&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;L1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -51,26 +41,10 @@
 &lt;pre&gt;&lt;code&gt;task list&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;task {task id} delete&lt;/code&gt;&lt;/pre&gt;
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Name&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
+&lt;p&gt;{action item}  | Any item that will be a task.
+  {task id}  | The current ID for that task.&lt;/p&gt;
 
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;{action item}&lt;/td&gt;
-&lt;td&gt;Any item that will be a task.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;{task id}&lt;/td&gt;
-&lt;td&gt;The current ID for that task.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;L2&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 

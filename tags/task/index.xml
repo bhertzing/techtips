@@ -37,29 +37,24 @@
 &lt;li&gt;Cygwin Download &lt;a href=&#34;https://www.cygwin.com/&#34;&gt;https://www.cygwin.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;commands:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Commands&lt;/h3&gt;
+&lt;h3 id=&#34;new-commands:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;New Commands&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;$ task&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;$ task add {action item}&lt;/code&gt;&lt;/pre&gt;
+{action item}   Any item that will be a task.&lt;br&gt;
 &lt;pre&gt;&lt;code&gt;$ task list&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;$ task {task id} delete&lt;/code&gt;&lt;/pre&gt;
+{task id}   The current ID for that task.&lt;br&gt;
 
-&lt;p&gt;{action item}   Any item that will be a task.&lt;br&gt;
-{task id}   The current ID for that task.&lt;br&gt;&lt;/p&gt;
+&lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;
 
-&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a name=&#34;L2&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;lesson-02:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Lesson 02&lt;/h2&gt;
-
+&lt;a name=&#34;L2&#34;&gt;&lt;/a&gt;
+## Lesson 02
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/jutN_S7v13k?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&#34;commands-1:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Commands&lt;/h3&gt;
+### New Commands
 
-&lt;pre&gt;&lt;code&gt;$ task add&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ task list&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ task {task id}&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;$ ls -al&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;$ cat .taskrc&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;$ nano .taskrc&lt;/code&gt;&lt;/pre&gt;
@@ -68,9 +63,9 @@
 Line to add to the .bashrc file&lt;br&gt;
 &lt;pre&gt;&lt;code&gt;export EDITOR=&#34;nano&#34;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;$ source .bashrc&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ task {task id} annotate {additional information}&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;{additional information} This is any text to add to the task.&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} annotate {additional information}&lt;/code&gt;&lt;/pre&gt;
+{additional information} This is any text to add to the task.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;&lt;/p&gt;
 </description>

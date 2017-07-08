@@ -18,7 +18,7 @@
       <guid>http://techtips.billhertzing.com/post/taskwarrior_notes/</guid>
       <description>
 
-&lt;p&gt;Notes from Taskwarrior Youtube Lessons that can be found at the link below.&lt;/p&gt;
+&lt;p&gt;Notes from Taskwarrior Youtube Lessons that can be found at the links below.&lt;/p&gt;
 
 &lt;h2 id=&#34;lesson-01:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Lesson 01&lt;/h2&gt;
 
@@ -27,6 +27,49 @@
 &lt;ul&gt;
 &lt;li&gt;Taskwarrior Download &lt;a href=&#34;https://taskwarrior.org/&#34;&gt;https://taskwarrior.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Cygwin Download &lt;a href=&#34;https://www.cygwin.com/&#34;&gt;https://www.cygwin.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;commands:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Commands&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;pre&gt;&lt;code&gt;task&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;pre&gt;&lt;code&gt;task add {action item}&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;pre&gt;&lt;code&gt;task list&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;pre&gt;&lt;code&gt;task {task id} delete&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;{action item}&lt;/td&gt;
+&lt;td&gt;Any item that will be a task.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;{task id}&lt;/td&gt;
+&lt;td&gt;The current ID for that task.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;lesson-02:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Lesson 02&lt;/h2&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/jutN_S7v13k?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;commands-1:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Commands&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;task add&lt;/li&gt;
+&lt;li&gt;task list&lt;/li&gt;
+&lt;li&gt;task (task id)&lt;/li&gt;
+&lt;li&gt;ls -al&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;Enter CODE HERE&lt;/code&gt;&lt;/pre&gt;

@@ -42,17 +42,24 @@
 
 &lt;h3 id=&#34;new-commands:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;New Commands&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ task&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ task add {action item}&lt;/code&gt;&lt;/pre&gt;
+{action item}   Any item that will be a task.&lt;br&gt;
+&lt;pre&gt;&lt;code&gt;$ task list&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ task {task id} delete&lt;/code&gt;&lt;/pre&gt;
+{task id}   The current ID for that task.&lt;br&gt;
+
+&lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;
 
 &lt;hr&gt;
 
-&lt;p&gt;&lt;a name=&#34;L2&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a name=&#34;L2&#34;&gt;&lt;/a&gt;
 
-&lt;h2 id=&#34;lesson-02:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Lesson 02&lt;/h2&gt;
+## Lesson 02
 
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/jutN_S7v13k?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&#34;new-commands-1:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;New Commands&lt;/h3&gt;
+### New Commands
 
 &lt;pre&gt;&lt;code&gt;$ task {task id} edit&lt;/code&gt;&lt;/pre&gt;
 Line to add to the .bashrc file&lt;br&gt;

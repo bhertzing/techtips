@@ -27,6 +27,8 @@
 &lt;li&gt;&lt;a href=&#34;#L3&#34;&gt;Taskwarrior Lesson 03&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;hr&gt;
+
 &lt;p&gt;&lt;a name=&#34;L1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;lesson-01:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Lesson 01&lt;/h2&gt;
@@ -57,7 +59,7 @@
 
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/jutN_S7v13k?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
-### New Commands
+## New Commands
 
 &lt;pre&gt;&lt;code&gt;$ ls -al&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;$ cat .taskrc&lt;/code&gt;&lt;/pre&gt;

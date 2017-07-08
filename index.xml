@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Bill Hertzing 2017.</copyright>
-    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Jul 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://techtips.billhertzing.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Taskwarrior Notes</title>
+      <link>http://techtips.billhertzing.com/post/taskwarrior_notes/</link>
+      <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://techtips.billhertzing.com/post/taskwarrior_notes/</guid>
+      <description>
+
+&lt;p&gt;Notes from Taskwarrior Youtube Lessons that can be found at the link below.&lt;/p&gt;
+
+&lt;iframe type=&#34;text/html&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/PLI4gKGOkRTj37BHpZnFBVHDsa3J-dAUVF&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;lesson-01:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Lesson 01&lt;/h2&gt;
+
+&lt;p&gt;..* Taskwarrior Download &lt;a href=&#34;https://taskwarrior.org/&#34;&gt;https://taskwarrior.org/&lt;/a&gt;
+..* Cygwin Download &lt;a href=&#34;https://www.cygwin.com/&#34;&gt;https://www.cygwin.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Enter CODE HERE&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Truncated Reply Message - Phrase Express</title>

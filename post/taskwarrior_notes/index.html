@@ -271,10 +271,10 @@
 
 <h3 id="commands:a2fe53ec5b1b20c3969ed55b8479b0ed">Commands</h3>
 
-<pre><code>task</code></pre>
-<pre><code>task add {action item}</code></pre>
-<pre><code>task list</code></pre>
-<pre><code>task {task id} delete</code></pre>
+<pre><code>$ task</code></pre>
+<pre><code>$ task add {action item}</code></pre>
+<pre><code>$ task list</code></pre>
+<pre><code>$ task {task id} delete</code></pre>
 
 <p>{action item}   Any item that will be a task.<br>
 {task id}   The current ID for that task.<br></p>
@@ -289,14 +289,22 @@
 
 <h3 id="commands-1:a2fe53ec5b1b20c3969ed55b8479b0ed">Commands</h3>
 
-<ul>
-<li>task add</li>
-<li>task list</li>
-<li>task (task id)</li>
-<li>ls -al</li>
-</ul>
+<pre><code>$ task add</code></pre>
+<pre><code>$ task list</code></pre>
+<pre><code>$ task {task id}</code></pre>
+<pre><code>$ ls -al</code></pre>
+<pre><code>$ cat .taskrc</code></pre>
+<pre><code>$ nano .taskrc</code></pre>
+<pre><code>$ task {task id} edit</code></pre>
+<pre><code>$ nano .bashrc</code></pre><br>
+Line to add to the .bashrc file<br>
+<pre><code>export EDITOR="nano"</code></pre>
+<pre><code>$ source .bashrc</code></pre>
+<pre><code>$ task {task id} annotate {additional information}</code></pre>
 
-<pre><code>Enter CODE HERE</code></pre>
+<p>{additional information} This is any text to add to the task.</p>
+
+<p><a href="#top">Top</a></p>
 
 
   

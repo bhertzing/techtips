@@ -39,10 +39,10 @@
 
 &lt;h3 id=&#34;commands:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Commands&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;task&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;task add {action item}&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;task list&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;task {task id} delete&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ task&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ task add {action item}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ task list&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ task {task id} delete&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;{action item}   Any item that will be a task.&lt;br&gt;
 {task id}   The current ID for that task.&lt;br&gt;&lt;/p&gt;
@@ -57,14 +57,22 @@
 
 &lt;h3 id=&#34;commands-1:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Commands&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;task add&lt;/li&gt;
-&lt;li&gt;task list&lt;/li&gt;
-&lt;li&gt;task (task id)&lt;/li&gt;
-&lt;li&gt;ls -al&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;$ task add&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ task list&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ task {task id}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ ls -al&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ cat .taskrc&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ nano .taskrc&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ task {task id} edit&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ nano .bashrc&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
+Line to add to the .bashrc file&lt;br&gt;
+&lt;pre&gt;&lt;code&gt;export EDITOR=&#34;nano&#34;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ source .bashrc&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ task {task id} annotate {additional information}&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;Enter CODE HERE&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;{additional information} This is any text to add to the task.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

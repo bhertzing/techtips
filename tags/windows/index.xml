@@ -31,12 +31,10 @@
 
 &lt;h3 id=&#34;commands:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Commands&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;pre&gt;&lt;code&gt;task&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;pre&gt;&lt;code&gt;task add {action item}&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;pre&gt;&lt;code&gt;task list&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;pre&gt;&lt;code&gt;task {task id} delete&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;task&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;task add {action item}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;task list&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;task {task id} delete&lt;/code&gt;&lt;/pre&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -58,6 +56,25 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;border:none;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 9px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 9px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-ejgj{font-family:Verdana, Geneva, sans-serif !important;;vertical-align:top}
+.tg .tg-anay{font-family:Verdana, Geneva, sans-serif !important;;text-align:right;vertical-align:top}
+&lt;/style&gt;
+&lt;table class=&#34;tg&#34;&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;{action item}&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;Any item that will be a task.&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;{task id}}&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;The current ID for that task.&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/table&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;lesson-02:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Lesson 02&lt;/h2&gt;
 

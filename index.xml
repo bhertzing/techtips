@@ -18,7 +18,7 @@
       <guid>http://techtips.billhertzing.com/post/taskwarrior_notes/</guid>
       <description>
 
-&lt;p&gt;Notes from Taskwarrior Youtube Lessons that can be found at the links below.
+&lt;p&gt;Notes from Taskwarrior Youtube Lessons that can be found at the links below.&lt;br&gt;
 &lt;a name=&#34;top&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -44,10 +44,8 @@
 &lt;pre&gt;&lt;code&gt;task list&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;task {task id} delete&lt;/code&gt;&lt;/pre&gt;
 
-&lt;ul&gt;
-&lt;li&gt;{action item}   Any item that will be a task.&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;{task id}   The current ID for that task.&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;{action item}   Any item that will be a task.&lt;br&gt;
+{task id}   The current ID for that task.&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;&lt;/p&gt;
 

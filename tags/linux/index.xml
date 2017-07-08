@@ -45,6 +45,7 @@
 &lt;pre&gt;&lt;code&gt;$ task list&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;$ task {task id} delete&lt;/code&gt;&lt;/pre&gt;
 {task id}   The current ID for that task.&lt;br&gt;
+
 &lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;
 
 &lt;hr&gt;
@@ -70,6 +71,8 @@ Line to add to the .bashrc file&lt;br&gt;
 {additional information} This is any text to add to the task.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lesson-03:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Lesson 03&lt;/h2&gt;
 </description>
     </item>
     

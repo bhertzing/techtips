@@ -45,9 +45,9 @@
 &lt;pre&gt;&lt;code&gt;$ task list&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;$ task {task id} delete&lt;/code&gt;&lt;/pre&gt;
 {task id}   The current ID for that task.&lt;br&gt;
-
 &lt;a href=&#34;#top&#34;&gt;Top&lt;/a&gt;
 
+&lt;hr&gt;
 
 &lt;a name=&#34;L2&#34;&gt;&lt;/a&gt;
 ## Lesson 02

@@ -20,6 +20,16 @@
 
 &lt;p&gt;Notes from Taskwarrior Youtube Lessons that can be found at the links below.&lt;/p&gt;
 
+&lt;p&gt;[MyWikiPage]       # Wiki - name of wiki page
+[#123]             # Tracker - ticket number&lt;/p&gt;
+
+&lt;p&gt;two part links
+[bugs:#1]
+[features:#1]&lt;/p&gt;
+
+&lt;p&gt;Three part links
+[allura:wiki:Home]&lt;/p&gt;
+
 &lt;h2 id=&#34;lesson-01:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Lesson 01&lt;/h2&gt;
 
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/3iyaS5WwcuQ?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -55,18 +65,6 @@
 &lt;td&gt;The current ID for that task.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;td class=&#34;{action item}&#34;&gt;&lt;/td&gt;
-    &lt;td class=&#34;Any item that will be a task.&#34;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&#34;{task id}}&#34;&gt;&lt;/td&gt;
-    &lt;td class=&#34;The current ID for that task.&#34;&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-
 &lt;/table&gt;
 
 &lt;h2 id=&#34;lesson-02:a2fe53ec5b1b20c3969ed55b8479b0ed&#34;&gt;Lesson 02&lt;/h2&gt;

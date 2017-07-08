@@ -61,13 +61,9 @@
 
 ### New Commands
 
-&lt;pre&gt;&lt;code&gt;$ cat .taskrc&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ nano .taskrc&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;$ task {task id} edit&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ nano .bashrc&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;
 Line to add to the .bashrc file&lt;br&gt;
 &lt;pre&gt;&lt;code&gt;export EDITOR=&#34;nano&#34;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ source .bashrc&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} annotate {additional information}&lt;/code&gt;&lt;/pre&gt;
 {additional information} This is any text to add to the task.&lt;/p&gt;

@@ -7,8 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Bill Hertzing 2017.</copyright>
-    <lastBuildDate>Fri, 07 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jul 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://techtips.billhertzing.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Taskwarrior Lesson 03: Linking Tasks and Setting Projects</title>
+      <link>http://techtips.billhertzing.com/post/taskwarrior_lesson_03/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_03/</guid>
+      <description>
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/MV8WQCyHJos?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;new-commands:99add4f58ded05eaff105fc62332e2b7&#34;&gt;New Commands&lt;/h3&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} modify priority:{priority level}&lt;/code&gt;&lt;/pre&gt;
+{priority level} By default usually L, M, &amp;amp; H for low, medium and high.&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} modify depends:{other task id}&lt;/code&gt;&lt;/pre&gt;
+{other task id} The task id where one task depends on another.&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} modify project:{project name}&lt;/code&gt;&lt;/pre&gt;
+{project name} The name of the project other tasks belong to.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Taskwarrior Lesson 01: Installation and First Task</title>

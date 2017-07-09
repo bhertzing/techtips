@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.16-DEV" />
 
-  <title>Taskwarrior Lesson 04: Miscellaneous Commands and Tags &middot; Bill&#39;s Tech Tips</title>
+  <title>Taskwarrior Lesson 05: Taskwarrior and Bash &middot; Bill&#39;s Tech Tips</title>
 
   
   
@@ -204,7 +204,7 @@
 
 
 <div class="header">
-  <h1>Taskwarrior Lesson 04: Miscellaneous Commands and Tags</h1>
+  <h1>Taskwarrior Lesson 05: Taskwarrior and Bash</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -213,7 +213,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>Jul 07, 2017</time>
+    <time>Jul 09, 2017</time>
   </div>
 
   
@@ -250,68 +250,48 @@
 
   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6t-KZ0mIb70?ecver=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jutN_S7v13k?ecver=1" frameborder="0" allowfullscreen></iframe>
 
-<h3 id="new-commands:0ef44036f35ebdb6b380a79fb37e137c">New Commands</h3>
+<h3 id="new-commands:e10c11a117ac646993132d3f7271ba4a">New Commands</h3>
 
-<pre><code>$ task calc</code></pre>
+<p>Configurations to the .bashrc file
+<pre><code>alias nt=&ldquo;task add $1&rdquo;</code></pre>
+$1 is an argument that you can send to command and it will process it where it is located.</p>
 
-<pre><code>$ task calendar</code></pre>
+<pre><code>alias tl="task list"</code></pre>
 
-<pre><code>$ task export</code></pre>
+<pre><code>alias reload="source .bashrc"</code></pre>
 
-<pre><code>$ task {task id} append {text}</code></pre>
+<pre><code>alias nt="task add $1"</code></pre>
 
-<pre><code>$ task undo</code></pre>
+<pre><code>
+taskprojectfunction () {
+    task $1 modify project:$2
+}
+alias tproj=taskprojectfunction 
+</code></pre>
 
-<pre><code>$ task {task id} prepend {text}</code></pre>
+<pre><code>task {task id} modify tag:"{text} {text} {text}"</code></pre>
 
-<pre><code>$ task project</code></pre>
-
-<pre><code>$ task log</code></pre>
-
-<pre><code>$ task completed</code></pre>
-
-<pre><code>$ task {uuid}</code></pre>
-
-<pre><code>$ task timesheet</code></pre>
-
-<pre><code>$ task ghistory</code></pre>
-
-<pre><code>$ task history</code></pre>
-
-<pre><code>$ task burndown.daily</code></pre>
-
-<pre><code>$ task burindown.weekly</code></pre>
-
-<pre><code>$ task show</code></pre>
-
-<pre><code>$ task active</code></pre>
-
-<pre><code>$ task {task id} start</code></pre>
-
-<pre><code>$ task colors</code></pre>
-
-<pre><code>$ task {task id} duplicate</code></pre>
-
-<pre><code>$ task {task id} modify tag:{tag}</code></pre>
-{tag} Any single word to tag a task.
-
-
-<pre><code>$ task tags</code></pre>
+<pre><code>
+tasktagfunction () {
+    task $1 modify tag:"$1 $2 $3"
+}
+alias ttag=tasktagfunction
+</code></pre>
 
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="http://techtips.billhertzing.com/post/taskwarrior_lesson_03/"><i class="fa fa-chevron-left"></i></a>
+    <a href="http://techtips.billhertzing.com/post/taskwarrior_lesson_04/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="http://techtips.billhertzing.com/post/taskwarrior_lesson_03/">Taskwarrior Lesson 03: Linking Tasks and Setting Projects</a>
+      <a href="http://techtips.billhertzing.com/post/taskwarrior_lesson_04/">Taskwarrior Lesson 04: Miscellaneous Commands and Tags</a>
     </nav>
     
   </div>
@@ -320,14 +300,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="http://techtips.billhertzing.com/post/taskwarrior_lesson_05/">Taskwarrior Lesson 05: Taskwarrior and Bash</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="http://techtips.billhertzing.com/post/taskwarrior_lesson_05/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

@@ -7,8 +7,48 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Bill Hertzing 2017.</copyright>
-    <lastBuildDate>Fri, 07 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jul 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://techtips.billhertzing.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Taskwarrior Lesson 05: Taskwarrior and Bash</title>
+      <link>http://techtips.billhertzing.com/post/taskwarrior_lesson_05/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_05/</guid>
+      <description>
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/jutN_S7v13k?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;new-commands:e10c11a117ac646993132d3f7271ba4a&#34;&gt;New Commands&lt;/h3&gt;
+
+&lt;p&gt;Configurations to the .bashrc file
+&lt;pre&gt;&lt;code&gt;alias nt=&amp;ldquo;task add $1&amp;rdquo;&lt;/code&gt;&lt;/pre&gt;
+$1 is an argument that you can send to command and it will process it where it is located.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;alias tl=&#34;task list&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;alias reload=&#34;source .bashrc&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;alias nt=&#34;task add $1&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;
+taskprojectfunction () {
+    task $1 modify project:$2
+}
+alias tproj=taskprojectfunction 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;task {task id} modify tag:&#34;{text} {text} {text}&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;
+tasktagfunction () {
+    task $1 modify tag:&#34;$1 $2 $3&#34;
+}
+alias ttag=tasktagfunction
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Taskwarrior Lesson 04: Miscellaneous Commands and Tags</title>

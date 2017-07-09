@@ -264,17 +264,15 @@ $1 is an argument that you can send to command and it will process it where it i
 
 <pre><code>alias nt="task add $1"</code></pre>
 
-<pre><code>
-taskprojectfunction () {
+<pre><code>taskprojectfunction () {
     task $1 modify project:$2
 }
 alias tproj=taskprojectfunction 
 </code></pre>
 
-<pre><code>task {task id} modify tag:"{text} {text} {text}"</code></pre>
+<pre><code>$ task {task id} modify tag:"{text} {text} {text}"</code></pre>
 
-<pre><code>
-tasktagfunction () {
+<pre><code>tasktagfunction () {
     task $1 modify tag:"$1 $2 $3"
 }
 alias ttag=tasktagfunction

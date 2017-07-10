@@ -38,7 +38,7 @@ $1 is an argument that you can send to command and it will process it where it i
 alias tproj=taskprojectfunction 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;UPDATE: Monday, July 10, 2017 04:12 pm - I was absolutely wrong about this.  Although Taskwarrior &lt;em&gt;took&lt;/em&gt; the command it is not store correctly.   It is essentially stored as one whole word or string.  The correct way is in the code below.&lt;/p&gt;
+&lt;p&gt;UPDATE: Monday, July 10, 2017 04:12 pm - I was absolutely wrong about this.  Although Taskwarrior &lt;em&gt;took&lt;/em&gt; the command it is not stored correctly.   It is essentially stored as one whole word or string.  The correct way is in the code below.&lt;/p&gt;
 
 &lt;p&gt;&lt;s&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} modify tag:&amp;ldquo;{text} {text} {text}&amp;rdquo;&lt;/code&gt;&lt;/pre&gt;&lt;/s&gt;&lt;/p&gt;
 

@@ -53,7 +53,7 @@ alias tproj=taskprojectfunction
 
 &lt;p&gt;&lt;code&gt;
     &lt;pre&gt;
-        task {task id} modify +{tag#1} +{tag#2} +{tag#}
+task {task id} modify +{tag#1} +{tag#2} +{tag#3}
     &lt;/pre&gt;
 &lt;/code&gt;&lt;/p&gt;
 </description>

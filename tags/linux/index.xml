@@ -49,10 +49,10 @@ alias tproj=taskprojectfunction
 &lt;/code&gt;
 &lt;/pre&gt;&lt;/p&gt;
 
-&lt;p&gt;This is the correct way.  I will explain more in Lesson 06.&lt;/p&gt;
+&lt;p&gt;This is the correct way.  I will explain more in Lesson 05 Part 2: Correction.&lt;/p&gt;
 
 &lt;pre&gt;
-    &lt;code&gt;task {task id} modify +{tag#1} +{tag#2} +{tag#3}&lt;/code&gt;
+    &lt;code&gt;$ task {task id} modify +{tag#1} +{tag#2} +{tag#3}&lt;/code&gt;
 &lt;/pre&gt;
 </description>
     </item>

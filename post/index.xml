@@ -38,13 +38,22 @@ $1 is an argument that you can send to command and it will process it where it i
 alias tproj=taskprojectfunction 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;$ task {task id} modify tag:&#34;{text} {text} {text}&#34;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;UPDATE: Monday, July 10, 2017 04:12 pm - I was absolutely wrong about this.  Although Taskwarrior &lt;em&gt;took&lt;/em&gt; the command it is not store correctly.   It is essentially stored as one whole word or string.  The correct way is in the code below.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;tasktagfunction () {
-    task $1 modify tag:&#34;$1 $2 $3&#34;
-}
-alias ttag=tasktagfunction
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;s&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} modify tag:&amp;ldquo;{text} {text} {text}&amp;rdquo;&lt;/code&gt;&lt;/pre&gt;&lt;/s&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;s&gt;&lt;pre&gt;&lt;code&gt;tasktagfunction () {&lt;/s&gt;
+&lt;s&gt; task $1 modify tag:&amp;ldquo;$1 $2 $3&amp;rdquo;&lt;/s&gt;
+&lt;s&gt;}&lt;/s&gt;
+&lt;s&gt;alias ttag=tasktagfunction&lt;/s&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the correct way.  I will explain more in Lesson 06.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+    &lt;pre&gt;
+        task {task id} modify +{tag#1} +{tag#2} +{tag#}
+    &lt;/pre&gt;
+&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     

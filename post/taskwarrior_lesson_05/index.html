@@ -270,13 +270,22 @@ $1 is an argument that you can send to command and it will process it where it i
 alias tproj=taskprojectfunction 
 </code></pre>
 
-<pre><code>$ task {task id} modify tag:"{text} {text} {text}"</code></pre>
+<p>UPDATE: Monday, July 10, 2017 04:12 pm - I was absolutely wrong about this.  Although Taskwarrior <em>took</em> the command it is not store correctly.   It is essentially stored as one whole word or string.  The correct way is in the code below.</p>
 
-<pre><code>tasktagfunction () {
-    task $1 modify tag:"$1 $2 $3"
-}
-alias ttag=tasktagfunction
-</code></pre>
+<p><s><pre><code>$ task {task id} modify tag:&ldquo;{text} {text} {text}&rdquo;</code></pre></s></p>
+
+<p><s><pre><code>tasktagfunction () {</s>
+<s> task $1 modify tag:&ldquo;$1 $2 $3&rdquo;</s>
+<s>}</s>
+<s>alias ttag=tasktagfunction</s></p>
+
+<p>This is the correct way.  I will explain more in Lesson 06.</p>
+
+<p><code>
+    <pre>
+        task {task id} modify +{tag#1} +{tag#2} +{tag#}
+    </pre>
+</code></p>
 
 
   

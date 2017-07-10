@@ -45,7 +45,9 @@ alias tproj=taskprojectfunction
 &lt;p&gt;&lt;s&gt;&lt;pre&gt;&lt;code&gt;tasktagfunction () {&lt;/s&gt;
 &lt;s&gt; task $1 modify tag:&amp;ldquo;$1 $2 $3&amp;rdquo;&lt;/s&gt;
 &lt;s&gt;}&lt;/s&gt;
-&lt;s&gt;alias ttag=tasktagfunction&lt;/s&gt;&lt;/p&gt;
+&lt;s&gt;alias ttag=tasktagfunction&lt;/s&gt;
+&lt;/code&gt;
+&lt;/pre&gt;&lt;/p&gt;
 
 &lt;p&gt;This is the correct way.  I will explain more in Lesson 06.&lt;/p&gt;
 

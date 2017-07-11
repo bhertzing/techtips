@@ -49,10 +49,18 @@ alias tproj=taskprojectfunction
 &lt;/code&gt;
 &lt;/pre&gt;&lt;/p&gt;
 
-&lt;p&gt;This is the correct way.  I will explain more in Lesson 05 Part 2: Correction.&lt;/p&gt;
+&lt;p&gt;This is the correct way.  I will explain more in Taskwarrior Lesson 05 Correction: Tags.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/pwCSANmuxxQ?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;pre&gt;
     &lt;code&gt;$ task {task id} modify +{tag#1} +{tag#2} +{tag#3}&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;UPDATE: Tuesday, July 11, 2017 12:16 am - One other update I found from doing the &amp;ldquo;undo&amp;rdquo; command was that tags were separated by commas.   Taskwarrior seemed to accept that format as well.&lt;/p&gt;
+
+&lt;pre&gt;
+        &lt;code&gt;$ task {task id} modify +{tag#1},{tag#2},{tag#3}&lt;/code&gt;
 &lt;/pre&gt;
 </description>
     </item>

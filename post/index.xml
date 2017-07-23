@@ -7,8 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Bill Hertzing 2017.</copyright>
-    <lastBuildDate>Sun, 09 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jul 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://techtips.billhertzing.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Taskwarrior Lesson 06: Command Stacking</title>
+      <link>http://techtips.billhertzing.com/post/taskwarrior_lesson_06/</link>
+      <pubDate>Sun, 23 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_06/</guid>
+      <description>
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;new-commands:d3927198f27f3101568f9c02e246a736&#34;&gt;New Commands&lt;/h3&gt;
+
+&lt;p&gt;Configurations to the .bashrc file
+&lt;pre&gt;
+    &lt;code&gt;newcakefunction () {
+    task add Bake cake for $1 due:$2 scheduled:due-4d wait:due-5d project:$3
+    task add buy eggs +$1,grocery due$2 scheduled:due-1d wait:-2d project:$3
+        task add buy flour +$1,grocery due$2 scheduled:due-1d wait:-2d project:$3
+        task add buy milk +$1,grocery due$2 scheduled:due-1d wait:-2d project:$3
+}
+alias newcake=newcakefunction&lt;/code&gt;
+&lt;/pre&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Taskwarrior Lesson 05: Taskwarrior and Bash</title>

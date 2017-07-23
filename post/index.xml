@@ -22,7 +22,7 @@
 
 &lt;h3 id=&#34;new-commands:d3927198f27f3101568f9c02e246a736&#34;&gt;New Commands&lt;/h3&gt;
 
-&lt;p&gt;Configurations to the .bashrc file
+&lt;p&gt;Here is the full command we will be using in this lesson.
 &lt;pre&gt;
     &lt;code&gt;newcakefunction () {
     task add Bake cake for $1 due:$2 scheduled:due-4d wait:due-5d project:$3

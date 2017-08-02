@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Bill Hertzing 2017.</copyright>
-    <lastBuildDate>Sun, 23 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://techtips.billhertzing.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Taskwarrior Lesson 07: Reports</title>
+      <link>http://techtips.billhertzing.com/post/taskwarrior_lesson_07/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_07/</guid>
+      <description>
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/xjkcCu3EUug?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;new-commands:7af03f2025199c460283b62a3b850220&#34;&gt;New Commands&lt;/h3&gt;
+
+&lt;p&gt;Here is the full command we will be using in this lesson.
+&lt;pre&gt;
+    &lt;code&gt;task report&lt;/code&gt;
+    &lt;code&gt;task show list&lt;/code&gt;
+    &lt;code&gt;task config report.list.labels&lt;/code&gt;
+&lt;/pre&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Taskwarrior Lesson 06: Command Stacking</title>

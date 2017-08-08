@@ -18,16 +18,23 @@
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_08/</guid>
       <description>
 
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/SO--37k_igE?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/t3anaiwx4A8?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;h3 id=&#34;new-commands:2f1b78f9e6b46c95ee3745ffa6147e25&#34;&gt;New Commands&lt;/h3&gt;
 
 &lt;p&gt;Here is the full command we will be using in this lesson.
 &lt;pre&gt;
-    &lt;code&gt;TBDtask report&lt;/code&gt;
-    &lt;code&gt;TBDtask show list&lt;/code&gt;
-    &lt;code&gt;TBDtask config report.list.labels&lt;/code&gt;
-&lt;/pre&gt;&lt;/p&gt;
+    &lt;code&gt;$ task config uda.cost.type numeric&lt;/code&gt;
+    &lt;code&gt;$ task config uda.cost.label Cost&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;code&amp;gt;urgency.uda.cost.coefficient=30&amp;lt;/code&amp;gt;
+
+&amp;lt;code&amp;gt;uda.color.type=string&amp;lt;/code&amp;gt;
+&amp;lt;code&amp;gt;uda.color.label=Color&amp;lt;/code&amp;gt;
+&amp;lt;code&amp;gt;uda.color.values=red,white,blue,green,yellow&amp;lt;/code&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/pre&gt;&lt;/p&gt;
 </description>
     </item>
     

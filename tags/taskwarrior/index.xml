@@ -25,16 +25,12 @@
 &lt;p&gt;Here is the full command we will be using in this lesson.
 &lt;pre&gt;
     &lt;code&gt;$ task config uda.cost.type numeric&lt;/code&gt;
-    &lt;code&gt;$ task config uda.cost.label Cost&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;code&amp;gt;urgency.uda.cost.coefficient=30&amp;lt;/code&amp;gt;
-
-&amp;lt;code&amp;gt;uda.color.type=string&amp;lt;/code&amp;gt;
-&amp;lt;code&amp;gt;uda.color.label=Color&amp;lt;/code&amp;gt;
-&amp;lt;code&amp;gt;uda.color.values=red,white,blue,green,yellow&amp;lt;/code&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/pre&gt;&lt;/p&gt;
+    &lt;code&gt;$ task config uda.cost.label Cost&lt;/code&gt;
+    &lt;code&gt;urgency.uda.cost.coefficient=30&lt;/code&gt;
+    &lt;code&gt;uda.color.type=string&lt;/code&gt;
+    &lt;code&gt;uda.color.label=Color&lt;/code&gt;
+    &lt;code&gt;uda.color.values=red,white,blue,green,yellow&lt;/code&gt;
+&lt;/pre&gt;&lt;/p&gt;
 </description>
     </item>
     

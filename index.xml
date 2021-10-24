@@ -7,8 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Bill Hertzing 2017.</copyright>
-    <lastBuildDate>Mon, 28 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://techtips.billhertzing.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2021 Test</title>
+      <link>http://techtips.billhertzing.com/post/2021-Test/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://techtips.billhertzing.com/post/2021-Test/</guid>
+      <description>&lt;p&gt;Just testing this to see if I remember how to do it.   The tech tip for this post is to make sure to leave yourself good notes.  It can be in
+a notebook or online (I prefer this) or locall.  If you are going to keep it locally, make sure to have multiple copies of the documentations.&lt;/p&gt;
+
+&lt;p&gt;I always like to save things in the lowest common denomonator of files.  Good old .txt file.  Anything can read it.&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Taskwarrior Lesson 10: Context</title>
@@ -523,26 +538,6 @@ Type 11 – CachedInteractive (not connected to domain)&lt;/p&gt;
       <description>&lt;p&gt;This Powershell command will print out a list of environment variables in the system.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Get-ChildItem Env:&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Script to Generate Kernel Panic</title>
-      <link>http://techtips.billhertzing.com/post/kernel-panic/</link>
-      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://techtips.billhertzing.com/post/kernel-panic/</guid>
-      <description>
-
-&lt;p&gt;This is a good tool to use to test what event cascade when a server crashes.&lt;/p&gt;
-
-&lt;h3 id=&#34;warning-use-at-your-own-risk:63a129f71a2bf8574a85db96cb4c15f5&#34;&gt;WARNING: USE AT YOUR OWN RISK&lt;/h3&gt;
-
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;echo c &amp;gt; /proc/sysrq-trigger&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;warning-use-at-your-own-risk-1:63a129f71a2bf8574a85db96cb4c15f5&#34;&gt;WARNING: USE AT YOUR OWN RISK&lt;/h3&gt;
-
-&lt;p&gt;Source: &lt;a href=&#34;https://unix.stackexchange.com/questions/66197/how-to-cause-kernel-panic-with-a-single-command&#34;&gt;https://unix.stackexchange.com/questions/66197/how-to-cause-kernel-panic-with-a-single-command&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

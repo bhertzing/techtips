@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://techtips.billhertzing.com/post/2021-test-2/</loc>
+    <loc>http://techtips.billhertzing.com/test/2021-test-2/</loc>
     <lastmod>2021-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/post/2021-test/</loc>
+    <loc>http://techtips.billhertzing.com/test/2021-test/</loc>
     <lastmod>2021-10-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -177,7 +177,7 @@
   
   <url>
     <loc>http://techtips.billhertzing.com/post/</loc>
-    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -214,6 +214,12 @@
   <url>
     <loc>http://techtips.billhertzing.com/topics/taskwarrior/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/test/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="generator" content="Hugo 0.40.1" />
 
   <title>Powershell &middot; Bill&#39;s Tech Tips</title>
 
@@ -75,12 +75,6 @@
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="http://techtips.billhertzing.com/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
           <a class="pure-menu-link" href="http://techtips.billhertzing.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
       
         </li>
@@ -94,6 +88,12 @@
       
         <li class="pure-menu-item">
           <a class="pure-menu-link" href="http://techtips.billhertzing.com/search/"><i class='fa fa-search fa-fw'></i>Search</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://techtips.billhertzing.com/"><i class='fa fa-home fa-fw'></i>Home</a>
       
         </li>
       
@@ -195,7 +195,7 @@
 
   <div>
   <div class="small-print">
-    <small>&copy; Bill Hertzing 2017.</small>
+    <small>&copy; Bill Hertzing 2021.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
@@ -259,7 +259,8 @@
   </header>
 
   <p>
-  Many times you will need to set this execution policy to run Powershell scripts set-executionpolicy -scope CurrentUser Unrestricted
+  Many times you will need to set this execution policy to run Powershell scripts
+set-executionpolicy -scope CurrentUser Unrestricted 
   </p>
 
   
@@ -312,7 +313,8 @@
   </header>
 
   <p>
-  This Powershell command will print out a list of environment variables in the system. Get-ChildItem Env:
+  This Powershell command will print out a list of environment variables in the system.
+Get-ChildItem Env: 
   </p>
 
   
@@ -363,7 +365,8 @@
   </header>
 
   <p>
-  Introduction: A quick script to watch a website to see if it remains online. Checks every five seconds. This is different than doing a simple ping check as it actually takes a look at the site and returns a status code. This is especially useful if you want to make sure a site is up during a critical event. while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent"; sleep 5} Or while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "StatusCode"; sleep 5} To see everything you can filter for, run this &lsquo;curl&rsquo; command against the domain in question.
+  Introduction: A quick script to watch a website to see if it remains online. Checks every five seconds. This is different than doing a simple ping check as it actually takes a look at the site and returns a status code. This is especially useful if you want to make sure a site is up during a critical event.
+ while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent"; sleep 5} Or
   </p>
 
   

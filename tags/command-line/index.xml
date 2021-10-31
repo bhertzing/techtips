@@ -6,9 +6,11 @@
     <description>Recent content in Command Line on Bill&#39;s Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; Bill Hertzing 2017.</copyright>
+    <copyright>&amp;copy; Bill Hertzing 2021.</copyright>
     <lastBuildDate>Mon, 12 Jun 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://techtips.billhertzing.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://techtips.billhertzing.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Script to Generate Kernel Panic</title>
@@ -16,18 +18,9 @@
       <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/kernel-panic/</guid>
-      <description>
-
-&lt;p&gt;This is a good tool to use to test what event cascade when a server crashes.&lt;/p&gt;
-
-&lt;h3 id=&#34;warning-use-at-your-own-risk:63a129f71a2bf8574a85db96cb4c15f5&#34;&gt;WARNING: USE AT YOUR OWN RISK&lt;/h3&gt;
-
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;echo c &amp;gt; /proc/sysrq-trigger&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;warning-use-at-your-own-risk-1:63a129f71a2bf8574a85db96cb4c15f5&#34;&gt;WARNING: USE AT YOUR OWN RISK&lt;/h3&gt;
-
-&lt;p&gt;Source: &lt;a href=&#34;https://unix.stackexchange.com/questions/66197/how-to-cause-kernel-panic-with-a-single-command&#34;&gt;https://unix.stackexchange.com/questions/66197/how-to-cause-kernel-panic-with-a-single-command&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>This is a good tool to use to test what event cascade when a server crashes.
+WARNING: USE AT YOUR OWN RISK echo c &amp;gt; /proc/sysrq-trigger
+WARNING: USE AT YOUR OWN RISK Source: https://unix.stackexchange.com/questions/66197/how-to-cause-kernel-panic-with-a-single-command</description>
     </item>
     
     <item>
@@ -36,22 +29,8 @@
       <pubDate>Tue, 20 Dec 2016 10:47:21 -0600</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/watch-a-site-in-bash/</guid>
-      <description>&lt;p&gt;Introduction:
-A quick script to watch a website to see if it remains online.  Checks every one second.  This is different than doing a simple ping check as it actually takes a look at the site and returns a status code.  This is especially useful if you want to make sure a site is up during a critical event.&lt;/p&gt;
-
-&lt;p&gt;The &amp;lsquo;watch&amp;rsquo; command is used to execute scripts or commands at a regular intervals.  The &amp;lsquo;curl&amp;rsquo; command will pull down a copy of the page as it currently exists on the site.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;pre&gt;&lt;code&gt;watch -n 1 curl -I http://DOMAIN_NAME.COM/&lt;/code&gt;&lt;/pre&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/dv2_cJBDVYo&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Reference:
-&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_HTTP_status_codes&#34; target=&#34;_blank&#34;&gt;Wiki: List of HTTP status codes&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Introduction: A quick script to watch a website to see if it remains online. Checks every one second. This is different than doing a simple ping check as it actually takes a look at the site and returns a status code. This is especially useful if you want to make sure a site is up during a critical event.
+The &amp;lsquo;watch&amp;rsquo; command is used to execute scripts or commands at a regular intervals.</description>
     </item>
     
     <item>
@@ -60,32 +39,8 @@ A quick script to watch a website to see if it remains online.  Checks every one
       <pubDate>Thu, 15 Dec 2016 10:47:21 -0600</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/watch-a-site-using-powershell/</guid>
-      <description>&lt;p&gt;Introduction:
-A quick script to watch a website to see if it remains online.  Checks every five seconds.  This is different than doing a simple ping check as it actually takes a look at the site and returns a status code.  This is especially useful if you want to make sure a site is up during a critical event.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;pre&gt;&lt;code&gt;while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr &#34;RawContent&#34;; sleep 5}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Or&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr &#34;StatusCode&#34;; sleep 5}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To see everything you can filter for, run this &amp;lsquo;curl&amp;rsquo; command against the domain in question.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;curl DOMAIN_NAME.COM&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;b&gt;UPDATE:&lt;/b&gt; A YouTube commenter (Peronnik Beijer) provided the following script that is much more simple.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;while ($true) { curl google.com | select &#34;statuscode&#34;; sleep 3}﻿&lt;/code&gt;&lt;/pre&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BW7tn0tkhdE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Reference:
-&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_HTTP_status_codes&#34; target=&#34;_blank&#34;&gt;Wiki: List of HTTP status codes&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Introduction: A quick script to watch a website to see if it remains online. Checks every five seconds. This is different than doing a simple ping check as it actually takes a look at the site and returns a status code. This is especially useful if you want to make sure a site is up during a critical event.
+ while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr &#34;RawContent&#34;; sleep 5} Or</description>
     </item>
     
   </channel>

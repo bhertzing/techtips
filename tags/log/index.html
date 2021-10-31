@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="generator" content="Hugo 0.40.1" />
 
   <title>Log &middot; Bill&#39;s Tech Tips</title>
 
@@ -75,12 +75,6 @@
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="http://techtips.billhertzing.com/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
           <a class="pure-menu-link" href="http://techtips.billhertzing.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
       
         </li>
@@ -94,6 +88,12 @@
       
         <li class="pure-menu-item">
           <a class="pure-menu-link" href="http://techtips.billhertzing.com/search/"><i class='fa fa-search fa-fw'></i>Search</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://techtips.billhertzing.com/"><i class='fa fa-home fa-fw'></i>Home</a>
       
         </li>
       
@@ -195,7 +195,7 @@
 
   <div>
   <div class="small-print">
-    <small>&copy; Bill Hertzing 2017.</small>
+    <small>&copy; Bill Hertzing 2021.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
@@ -265,7 +265,9 @@
   </header>
 
   <p>
-  In the time of incidents, Windows Event logs provide a plenty of useful information for the Incident responder.As you know Windows can generate thousands of events in few minutes ,in this diary I will talk about some of the most useful events and in the next diary I would discuss how to use PowerShell to search for them . Here is of the most useful events for Forensics/Incident response: Event ID Description Log Name 4624 Successful Logon Security 4625 Failed Login Security 4776 Successful /Failed Account Authentication Security 4720 A user account was created Security 4732 A member was added to a security-enabled local group Security 4728 A member was added to a security-enabled global group Security 7030 Service Creation Errors System 7045 Service Creation System One of the useful information that Successful/Failed Logon event provide is how the user/process tried to logon (Logon Type ) but Windows display this information as a number and here is a list of the logon type and their explanation Logon Type Explanation 2 Logon via console 3 Network Logon, A user or computer logged on to this computer from the network.
+  In the time of incidents, Windows Event logs provide a plenty of useful information for the Incident responder.As you know Windows can generate thousands of events in few minutes ,in this diary I will talk about some of the most useful events and in the next diary I would discuss how to use PowerShell to search for them .
+Here is of the most useful events for Forensics/Incident response:
+Event ID
   </p>
 
   

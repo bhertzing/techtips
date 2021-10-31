@@ -6,9 +6,11 @@
     <description>Recent content in Configure on Bill&#39;s Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; Bill Hertzing 2017.</copyright>
+    <copyright>&amp;copy; Bill Hertzing 2021.</copyright>
     <lastBuildDate>Mon, 12 Jun 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://techtips.billhertzing.com/tags/configure/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://techtips.billhertzing.com/tags/configure/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Get Environment Variables - Windows</title>
@@ -16,10 +18,8 @@
       <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/get-environment-variables-windows/</guid>
-      <description>&lt;p&gt;This Powershell command will print out a list of environment variables in the system.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Get-ChildItem Env:&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>This Powershell command will print out a list of environment variables in the system.
+Get-ChildItem Env: </description>
     </item>
     
   </channel>

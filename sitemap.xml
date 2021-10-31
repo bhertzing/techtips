@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://techtips.billhertzing.com/</loc>
-    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>http://techtips.billhertzing.com/post/2021-test-2/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/post/2021-Test/</loc>
+    <loc>http://techtips.billhertzing.com/post/2021-test/</loc>
     <lastmod>2021-10-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -95,6 +95,156 @@
   <url>
     <loc>http://techtips.billhertzing.com/post/watch-a-site-using-powershell/</loc>
     <lastmod>2016-12-15T10:47:21-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/automation/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/bash/</loc>
+    <lastmod>2016-12-20T10:47:21-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/command-line/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/configure/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/email/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/topics/general/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/linux/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/topics/linux/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/log/</loc>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/notes/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/outlook/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/phraseexpress/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/post/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/powershell/</loc>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/script/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/security/</loc>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/taskwarrior/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/topics/taskwarrior/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/tips/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/topics/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/troubleshoot/</loc>
+    <lastmod>2017-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/windows/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/topics/windows/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

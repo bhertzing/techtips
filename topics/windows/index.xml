@@ -6,9 +6,11 @@
     <description>Recent content in Windows on Bill&#39;s Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; Bill Hertzing 2017.</copyright>
+    <copyright>&amp;copy; Bill Hertzing 2021.</copyright>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://techtips.billhertzing.com/topics/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://techtips.billhertzing.com/topics/windows/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Truncated Reply Message - Phrase Express</title>
@@ -16,10 +18,8 @@
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/truncated_reply_message/</guid>
-      <description>&lt;p&gt;This is a macro I wrote that mimics the Highlight+Reply you get with Outlook for Mac or the older Entourage software.   I use PhraseExpress software with an assigned hot key.&lt;/p&gt;
-
-&lt;pre&gt;{#clipboard -copy}{#sleep 100}{#CTRL {#SHIFT -chars r}}{#sleep 100}{#CTRL -chars a}{#sleep 100}{#DEL}{#sleep 100}{#ENTER -count 2}{#sleep 100} ======TRUNCATED MESSAGE====== {#ENTER}{#sleep 100}{#clipboard -paste}{#sleep 100}{#CTRL -chars a}{#sleep 100}{#CTRL -chars q}{#sleep 100}{#CTRL -chars i}{#sleep 100}{#HOME}{#sleep 100}{#CTRL {#SHIFT -chars t}}{#sleep 100}{#CTRL -chars i}&lt;/pre&gt;
-</description>
+      <description>This is a macro I wrote that mimics the Highlight+Reply you get with Outlook for Mac or the older Entourage software. I use PhraseExpress software with an assigned hot key.
+{#clipboard -copy}{#sleep 100}{#CTRL {#SHIFT -chars r}}{#sleep 100}{#CTRL -chars a}{#sleep 100}{#DEL}{#sleep 100}{#ENTER -count 2}{#sleep 100} ======TRUNCATED MESSAGE====== {#ENTER}{#sleep 100}{#clipboard -paste}{#sleep 100}{#CTRL -chars a}{#sleep 100}{#CTRL -chars q}{#sleep 100}{#CTRL -chars i}{#sleep 100}{#HOME}{#sleep 100}{#CTRL {#SHIFT -chars t}}{#sleep 100}{#CTRL -chars i} </description>
     </item>
     
     <item>
@@ -28,10 +28,8 @@
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/powershell_execution_policy/</guid>
-      <description>&lt;p&gt;Many times you will need to set this execution policy to run Powershell scripts&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;set-executionpolicy -scope CurrentUser Unrestricted&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>Many times you will need to set this execution policy to run Powershell scripts
+set-executionpolicy -scope CurrentUser Unrestricted </description>
     </item>
     
     <item>
@@ -40,186 +38,9 @@
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/windows_event_log_forensics/</guid>
-      <description>&lt;p&gt;In the time of incidents, Windows Event logs provide a plenty of useful information for the Incident responder.As you know Windows can generate thousands of events in few minutes ,in this diary I will talk about some of the most useful events and in the next diary I would discuss how to use PowerShell to search for them .&lt;/p&gt;
-
-&lt;p&gt;Here is of the most useful events for Forensics/Incident response:&lt;/p&gt;
-
-&lt;p&gt;Event ID&lt;/p&gt;
-
-&lt;p&gt;Description&lt;/p&gt;
-
-&lt;p&gt;Log Name&lt;/p&gt;
-
-&lt;p&gt;4624&lt;/p&gt;
-
-&lt;p&gt;Successful Logon&lt;/p&gt;
-
-&lt;p&gt;Security&lt;/p&gt;
-
-&lt;p&gt;4625&lt;/p&gt;
-
-&lt;p&gt;Failed Login&lt;/p&gt;
-
-&lt;p&gt;Security&lt;/p&gt;
-
-&lt;p&gt;4776&lt;/p&gt;
-
-&lt;p&gt;Successful /Failed Account Authentication&lt;/p&gt;
-
-&lt;p&gt;Security&lt;/p&gt;
-
-&lt;p&gt;4720&lt;/p&gt;
-
-&lt;p&gt;A user account was created&lt;/p&gt;
-
-&lt;p&gt;Security&lt;/p&gt;
-
-&lt;p&gt;4732&lt;/p&gt;
-
-&lt;p&gt;A member was added to a&lt;/p&gt;
-
-&lt;p&gt;security-enabled local group&lt;/p&gt;
-
-&lt;p&gt;Security&lt;/p&gt;
-
-&lt;p&gt;4728&lt;/p&gt;
-
-&lt;p&gt;A member was added to a security-enabled global group&lt;/p&gt;
-
-&lt;p&gt;Security&lt;/p&gt;
-
-&lt;p&gt;7030&lt;/p&gt;
-
-&lt;p&gt;Service Creation Errors&lt;/p&gt;
-
-&lt;p&gt;System&lt;/p&gt;
-
-&lt;p&gt;7045&lt;/p&gt;
-
-&lt;p&gt;Service Creation&lt;/p&gt;
-
-&lt;p&gt;System&lt;/p&gt;
-
-&lt;p&gt;One of the useful information that Successful/Failed Logon event provide is how the user/process tried to logon (Logon Type ) but Windows display this information as a number and here is a list of the logon type and their explanation&lt;/p&gt;
-
-&lt;p&gt;Logon Type&lt;/p&gt;
-
-&lt;p&gt;Explanation&lt;/p&gt;
-
-&lt;p&gt;2&lt;/p&gt;
-
-&lt;p&gt;Logon via console&lt;/p&gt;
-
-&lt;p&gt;3&lt;/p&gt;
-
-&lt;p&gt;Network Logon, A user or computer logged on to this computer from the network.&lt;/p&gt;
-
-&lt;p&gt;4&lt;/p&gt;
-
-&lt;p&gt;Batch logon&lt;/p&gt;
-
-&lt;p&gt;5&lt;/p&gt;
-
-&lt;p&gt;Windows Service Logon&lt;/p&gt;
-
-&lt;p&gt;7&lt;/p&gt;
-
-&lt;p&gt;Credentials used to unlock screen&lt;/p&gt;
-
-&lt;p&gt;8&lt;/p&gt;
-
-&lt;p&gt;Network logon sending credentials (cleartext)&lt;/p&gt;
-
-&lt;p&gt;9&lt;/p&gt;
-
-&lt;p&gt;Different credentials used than logged on user&lt;/p&gt;
-
-&lt;p&gt;10&lt;/p&gt;
-
-&lt;p&gt;Remote interactive logon (RDP)&lt;/p&gt;
-
-&lt;p&gt;11&lt;/p&gt;
-
-&lt;p&gt;Cached credentials used to logon&lt;/p&gt;
-
-&lt;p&gt;12&lt;/p&gt;
-
-&lt;p&gt;Cached remote interactive&lt;/p&gt;
-
-&lt;p&gt;13&lt;/p&gt;
-
-&lt;p&gt;Cached unlock (Similar to logon type 7)&lt;/p&gt;
-
-&lt;p&gt;In the next diary I would show some examples how to use PowerShell to search Windows Events of a compromised system&lt;/p&gt;
-
-&lt;p&gt;Basil&lt;/p&gt;
-
-&lt;p&gt;47 POSTS
-ISC HANDLER
-Reply Subscribe 1 week ago
-Good one – would like to add more&lt;/p&gt;
-
-&lt;p&gt;Logon failure events&lt;/p&gt;
-
-&lt;p&gt;0xC0000064 User name does not exist
-0xC000006A User name is correct but the password is wrong
-0xC0000234 User is currently locked out
-0xC0000072 Account is currently disabled
-0xC000006F User tried to logon outside his day of week or time of day restrictions
-0xC0000070 Workstation restriction
-0xC00000193 Account expiration
-0xC0000071 Expired password
-0xC0000133 Clocks between DC and other computer too far out of sync
-0xC0000224 User is required to change password at next logon
-0xC0000225 Evidently a bug in Windows and not a risk
-0xC000015b “The user has not been granted the requested logon”&lt;/p&gt;
-
-&lt;p&gt;Logon sessions&lt;/p&gt;
-
-&lt;p&gt;4647 user initiated logon
-4800 Workstation Locked
-4801 Workstation unlocked
-4802 Screen saver loaded
-4803 Screen saver dismissed
-4778 RDP reconnected
-4779 RDP disconnected&lt;/p&gt;
-
-&lt;p&gt;User account changes&lt;/p&gt;
-
-&lt;p&gt;4720 Created
-4722 Enabled
-4723 User changed own password
-4724 Privileged User changed this user’s password
-4725 Disabled
-4726 Deleted
-4738 Changed
-4740 Locked out
-4767 Unlocked
-4781 Name change
-makflwana&lt;/p&gt;
-
-&lt;p&gt;17 POSTS POSTS
-Reply Quote 1 week ago
-Should probably also include 4756 – user added to security enabled universal group
-Jaybone&lt;/p&gt;
-
-&lt;p&gt;26 POSTS POSTS
-Reply Quote 1 week ago
-I keep this one in Onenote… very relevant when troubleshooting Windows event logs:&lt;/p&gt;
-
-&lt;p&gt;Logon Types
-Type 2 – Interactive (console login)
-Type 3 – Network
-Type 4 – Batch (scheduled tasks)
-Type 5 – Services
-Type 7 – Unlock
-Type 8 – Network (cleartext)
-Type 9 – NewCredentials (RunAs)
-Type 10 – RemoteInteractive (RDP connections)
-Type 11 – CachedInteractive (not connected to domain)&lt;/p&gt;
-
-&lt;p&gt;Source: &lt;a href=&#34;https://isc.sans.edu/forums/diary/Windows+Events+log+for+IRForensics+Part+1/21493/&#34;&gt;https://isc.sans.edu/forums/diary/Windows+Events+log+for+IRForensics+Part+1/21493/&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>In the time of incidents, Windows Event logs provide a plenty of useful information for the Incident responder.As you know Windows can generate thousands of events in few minutes ,in this diary I will talk about some of the most useful events and in the next diary I would discuss how to use PowerShell to search for them .
+Here is of the most useful events for Forensics/Incident response:
+Event ID</description>
     </item>
     
     <item>
@@ -228,10 +49,8 @@ Type 11 – CachedInteractive (not connected to domain)&lt;/p&gt;
       <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/get-environment-variables-windows/</guid>
-      <description>&lt;p&gt;This Powershell command will print out a list of environment variables in the system.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Get-ChildItem Env:&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>This Powershell command will print out a list of environment variables in the system.
+Get-ChildItem Env: </description>
     </item>
     
     <item>
@@ -240,32 +59,8 @@ Type 11 – CachedInteractive (not connected to domain)&lt;/p&gt;
       <pubDate>Thu, 15 Dec 2016 10:47:21 -0600</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/watch-a-site-using-powershell/</guid>
-      <description>&lt;p&gt;Introduction:
-A quick script to watch a website to see if it remains online.  Checks every five seconds.  This is different than doing a simple ping check as it actually takes a look at the site and returns a status code.  This is especially useful if you want to make sure a site is up during a critical event.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;pre&gt;&lt;code&gt;while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr &#34;RawContent&#34;; sleep 5}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Or&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr &#34;StatusCode&#34;; sleep 5}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To see everything you can filter for, run this &amp;lsquo;curl&amp;rsquo; command against the domain in question.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;curl DOMAIN_NAME.COM&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;b&gt;UPDATE:&lt;/b&gt; A YouTube commenter (Peronnik Beijer) provided the following script that is much more simple.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;while ($true) { curl google.com | select &#34;statuscode&#34;; sleep 3}﻿&lt;/code&gt;&lt;/pre&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BW7tn0tkhdE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Reference:
-&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_HTTP_status_codes&#34; target=&#34;_blank&#34;&gt;Wiki: List of HTTP status codes&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Introduction: A quick script to watch a website to see if it remains online. Checks every five seconds. This is different than doing a simple ping check as it actually takes a look at the site and returns a status code. This is especially useful if you want to make sure a site is up during a critical event.
+ while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr &#34;RawContent&#34;; sleep 5} Or</description>
     </item>
     
   </channel>

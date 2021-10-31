@@ -6,9 +6,11 @@
     <description>Recent content in Taskwarrior on Bill&#39;s Tech Tips</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; Bill Hertzing 2017.</copyright>
+    <copyright>&amp;copy; Bill Hertzing 2021.</copyright>
     <lastBuildDate>Mon, 28 Aug 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://techtips.billhertzing.com/topics/taskwarrior/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://techtips.billhertzing.com/topics/taskwarrior/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Taskwarrior Lesson 10: Context</title>
@@ -16,19 +18,7 @@
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_10/</guid>
-      <description>
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7ST5MO2hIaM?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;new-commands:f80278d7a5bb09a632ebc054cd0905fe&#34;&gt;New Commands&lt;/h3&gt;
-
-&lt;p&gt;Here is the full command we will be using in this lesson.
-&lt;pre&gt;
-    &lt;code&gt;$ task context define [name] [tag]&lt;/code&gt;
-    &lt;code&gt;$ task context [name]&lt;/code&gt;
-    &lt;code&gt;$ task context none&lt;/code&gt;
-&lt;/pre&gt;&lt;/p&gt;
-</description>
+      <description>New Commands Here is the full command we will be using in this lesson.  $ task context define [name] [tag] $ task context [name] $ task context none</description>
     </item>
     
     <item>
@@ -37,14 +27,7 @@
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_09/</guid>
-      <description>
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ZhwMMfOqDdw&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;new-commands:f25d9086e441b4aaebe217bbcac22e90&#34;&gt;New Commands&lt;/h3&gt;
-
-&lt;p&gt;No new commands in this Lesson.  We combine what was covered in previous lessons.&lt;/p&gt;
-</description>
+      <description>New Commands No new commands in this Lesson. We combine what was covered in previous lessons.</description>
     </item>
     
     <item>
@@ -53,22 +36,7 @@
       <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_08/</guid>
-      <description>
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/t3anaiwx4A8?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;new-commands:2f1b78f9e6b46c95ee3745ffa6147e25&#34;&gt;New Commands&lt;/h3&gt;
-
-&lt;p&gt;Here is the full command we will be using in this lesson.
-&lt;pre&gt;
-    &lt;code&gt;$ task config uda.cost.type numeric&lt;/code&gt;
-    &lt;code&gt;$ task config uda.cost.label Cost&lt;/code&gt;
-    &lt;code&gt;urgency.uda.cost.coefficient=30&lt;/code&gt;
-    &lt;code&gt;uda.color.type=string&lt;/code&gt;
-    &lt;code&gt;uda.color.label=Color&lt;/code&gt;
-    &lt;code&gt;uda.color.values=red,white,blue,green,yellow&lt;/code&gt;
-&lt;/pre&gt;&lt;/p&gt;
-</description>
+      <description>New Commands Here is the full command we will be using in this lesson.  $ task config uda.cost.type numeric $ task config uda.cost.label Cost urgency.uda.cost.coefficient=30 uda.color.type=string uda.color.label=Color uda.color.values=red,white,blue,green,yellow</description>
     </item>
     
     <item>
@@ -77,19 +45,7 @@
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_07/</guid>
-      <description>
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/SO--37k_igE?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;new-commands:7af03f2025199c460283b62a3b850220&#34;&gt;New Commands&lt;/h3&gt;
-
-&lt;p&gt;Here is the full command we will be using in this lesson.
-&lt;pre&gt;
-    &lt;code&gt;task report&lt;/code&gt;
-    &lt;code&gt;task show list&lt;/code&gt;
-    &lt;code&gt;task config report.list.labels&lt;/code&gt;
-&lt;/pre&gt;&lt;/p&gt;
-</description>
+      <description>New Commands Here is the full command we will be using in this lesson.  task report task show list task config report.list.labels</description>
     </item>
     
     <item>
@@ -98,23 +54,7 @@
       <pubDate>Sun, 23 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_06/</guid>
-      <description>
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/xjkcCu3EUug?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;new-commands:d3927198f27f3101568f9c02e246a736&#34;&gt;New Commands&lt;/h3&gt;
-
-&lt;p&gt;Here is the full command we will be using in this lesson.
-&lt;pre&gt;
-    &lt;code&gt;newcakefunction () {
-    task add Bake cake for $1 due:$2 scheduled:due-4d wait:due-5d project:$3
-    task add buy eggs +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3
-    task add buy flour +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3
-    task add buy milk +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3
-}
-alias newcake=newcakefunction&lt;/code&gt;
-&lt;/pre&gt;&lt;/p&gt;
-</description>
+      <description>New Commands Here is the full command we will be using in this lesson.  newcakefunction () { task add Bake cake for $1 due:$2 scheduled:due-4d wait:due-5d project:$3 task add buy eggs +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3 task add buy flour +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3 task add buy milk +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3 } alias newcake=newcakefunction</description>
     </item>
     
     <item>
@@ -123,53 +63,8 @@ alias newcake=newcakefunction&lt;/code&gt;
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_05/</guid>
-      <description>
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-yV20vgFA9M?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;new-commands:e10c11a117ac646993132d3f7271ba4a&#34;&gt;New Commands&lt;/h3&gt;
-
-&lt;p&gt;Configurations to the .bashrc file
-&lt;pre&gt;&lt;code&gt;alias nt=&amp;ldquo;task add $1&amp;rdquo;&lt;/code&gt;&lt;/pre&gt;
-$1 is an argument that you can send to command and it will process it where it is located.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;alias tl=&#34;task list&#34;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;alias reload=&#34;source .bashrc&#34;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;alias nt=&#34;task add $1&#34;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;taskprojectfunction () {
-    task $1 modify project:$2
-}
-alias tproj=taskprojectfunction 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;UPDATE: Monday, July 10, 2017 04:12 pm - I was absolutely wrong about this.  Although Taskwarrior &lt;em&gt;took&lt;/em&gt; the command it is not stored correctly.   It is essentially stored as one whole word or string.  The correct way is in the code below.&lt;/p&gt;
-
-&lt;p&gt;&lt;s&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} modify tag:&amp;ldquo;{text} {text} {text}&amp;rdquo;&lt;/code&gt;&lt;/pre&gt;&lt;/s&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;s&gt;&lt;pre&gt;&lt;code&gt;tasktagfunction () {&lt;/s&gt;
-&lt;s&gt; task $1 modify tag:&amp;ldquo;$1 $2 $3&amp;rdquo;&lt;/s&gt;
-&lt;s&gt;}&lt;/s&gt;
-&lt;s&gt;alias ttag=tasktagfunction&lt;/s&gt;
-&lt;/code&gt;
-&lt;/pre&gt;&lt;/p&gt;
-
-&lt;p&gt;This is the correct way.  I will explain more in Taskwarrior Lesson 05 Correction: Tags.&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/pwCSANmuxxQ?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;pre&gt;
-    &lt;code&gt;$ task {task id} modify +{tag#1} +{tag#2} +{tag#3}&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;UPDATE: Tuesday, July 11, 2017 12:16 am - One other update I found from doing the &amp;ldquo;undo&amp;rdquo; command was that tags were separated by commas.   Taskwarrior seemed to accept that format as well.&lt;/p&gt;
-
-&lt;pre&gt;
-        &lt;code&gt;$ task {task id} modify +{tag#1},{tag#2},{tag#3}&lt;/code&gt;
-&lt;/pre&gt;
-</description>
+      <description>New Commands Configurations to the .bashrc file alias nt=&amp;ldquo;task add $1&amp;rdquo; $1 is an argument that you can send to command and it will process it where it is located.
+alias tl=&#34;task list&#34; alias reload=&#34;source .bashrc&#34; alias nt=&#34;task add $1&#34; taskprojectfunction () { task $1 modify project:$2 } alias tproj=taskprojectfunction  UPDATE: Monday, July 10, 2017 04:12 pm - I was absolutely wrong about this. Although Taskwarrior took the command it is not stored correctly.</description>
     </item>
     
     <item>
@@ -178,58 +73,7 @@ alias tproj=taskprojectfunction
       <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_04/</guid>
-      <description>
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/6t-KZ0mIb70?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;new-commands:0ef44036f35ebdb6b380a79fb37e137c&#34;&gt;New Commands&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task calc&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task calendar&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task export&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task {task id} append {text}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task undo&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task {task id} prepend {text}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task project&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task log&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task completed&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task {uuid}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task timesheet&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task ghistory&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task history&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task burndown.daily&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task burindown.weekly&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task show&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task active&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task {task id} start&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task colors&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task {task id} duplicate&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task {task id} modify tag:{tag}&lt;/code&gt;&lt;/pre&gt;
-{tag} Any single word to tag a task.
-
-
-&lt;pre&gt;&lt;code&gt;$ task tags&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>New Commands $ task calc $ task calendar $ task export $ task {task id} append {text} $ task undo $ task {task id} prepend {text} $ task project $ task log $ task completed $ task {uuid} $ task timesheet $ task ghistory $ task history $ task burndown.daily $ task burindown.weekly $ task show $ task active $ task {task id} start $ task colors $ task {task id} duplicate $ task {task id} modify tag:{tag} {tag} Any single word to tag a task.</description>
     </item>
     
     <item>
@@ -238,21 +82,9 @@ alias tproj=taskprojectfunction
       <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_03/</guid>
-      <description>
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/MV8WQCyHJos?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;new-commands:99add4f58ded05eaff105fc62332e2b7&#34;&gt;New Commands&lt;/h3&gt;
-
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} modify priority:{priority level}&lt;/code&gt;&lt;/pre&gt;
-{priority level} By default usually L, M, &amp;amp; H for low, medium and high.&lt;/p&gt;
-
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} modify depends:{other task id}&lt;/code&gt;&lt;/pre&gt;
-{other task id} The task id where one task depends on another.&lt;/p&gt;
-
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} modify project:{project name}&lt;/code&gt;&lt;/pre&gt;
-{project name} The name of the project other tasks belong to.&lt;/p&gt;
-</description>
+      <description>New Commands $ task {task id} modify priority:{priority level} {priority level} By default usually L, M, &amp;amp; H for low, medium and high.
+$ task {task id} modify depends:{other task id} {other task id} The task id where one task depends on another.
+$ task {task id} modify project:{project name} {project name} The name of the project other tasks belong to.</description>
     </item>
     
     <item>
@@ -261,19 +93,8 @@ alias tproj=taskprojectfunction
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_02/</guid>
-      <description>
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/jutN_S7v13k?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;new-commands:65b895c10bac47a6e8a0dae5d7c8ff68&#34;&gt;New Commands&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;$ task {task id} edit&lt;/code&gt;&lt;/pre&gt;
-Line to add to the .bashrc file&lt;br&gt;
-&lt;pre&gt;&lt;code&gt;export EDITOR=&#34;nano&#34;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;$ task {task id} annotate {additional information}&lt;/code&gt;&lt;/pre&gt;
-{additional information} This is any text to add to the task.&lt;/p&gt;
-</description>
+      <description>New Commands $ task {task id} edit Line to add to the .bashrc file
+export EDITOR=&#34;nano&#34; $ task {task id} annotate {additional information} {additional information} This is any text to add to the task.</description>
     </item>
     
     <item>
@@ -282,24 +103,8 @@ Line to add to the .bashrc file&lt;br&gt;
       <pubDate>Tue, 04 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://techtips.billhertzing.com/post/taskwarrior_lesson_01/</guid>
-      <description>
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/3iyaS5WwcuQ?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Taskwarrior Download &lt;a href=&#34;https://taskwarrior.org/&#34;&gt;https://taskwarrior.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Cygwin Download &lt;a href=&#34;https://www.cygwin.com/&#34;&gt;https://www.cygwin.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;new-commands:73d98d9f1277591653c05f8b97c7732e&#34;&gt;New Commands&lt;/h3&gt;
-
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;$ task&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ task add {action item}&lt;/code&gt;&lt;/pre&gt;
-{action item}   Any item that will be a task.&lt;br&gt;
-&lt;pre&gt;&lt;code&gt;$ task list&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ task {task id} delete&lt;/code&gt;&lt;/pre&gt;
-{task id}   The current ID for that task.&lt;br&gt;&lt;/p&gt;
-</description>
+      <description>Taskwarrior Download https://taskwarrior.org/ Cygwin Download https://www.cygwin.com/  New Commands $ task $ task add {action item} {action item} Any item that will be a task.
+$ task list $ task {task id} delete {task id} The current ID for that task.</description>
     </item>
     
   </channel>

@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="generator" content="Hugo 0.40.1" />
 
   <title>Linux &middot; Bill&#39;s Tech Tips</title>
 
@@ -75,12 +75,6 @@
       
       
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="http://techtips.billhertzing.com/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
           <a class="pure-menu-link" href="http://techtips.billhertzing.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
       
         </li>
@@ -94,6 +88,12 @@
       
         <li class="pure-menu-item">
           <a class="pure-menu-link" href="http://techtips.billhertzing.com/search/"><i class='fa fa-search fa-fw'></i>Search</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://techtips.billhertzing.com/"><i class='fa fa-home fa-fw'></i>Home</a>
       
         </li>
       
@@ -195,7 +195,7 @@
 
   <div>
   <div class="small-print">
-    <small>&copy; Bill Hertzing 2017.</small>
+    <small>&copy; Bill Hertzing 2021.</small>
   </div>
   <div class="small-print">
     <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
@@ -261,7 +261,7 @@
   </header>
 
   <p>
-  New Commands Here is the full command we will be using in this lesson. $ task context define [name] [tag] $ task context [name] $ task context none
+  New Commands Here is the full command we will be using in this lesson.  $ task context define [name] [tag] $ task context [name] $ task context none
   </p>
 
   
@@ -367,7 +367,7 @@
   </header>
 
   <p>
-  New Commands Here is the full command we will be using in this lesson. $ task config uda.cost.type numeric $ task config uda.cost.label Cost urgency.uda.cost.coefficient=30 uda.color.type=string uda.color.label=Color uda.color.values=red,white,blue,green,yellow
+  New Commands Here is the full command we will be using in this lesson.  $ task config uda.cost.type numeric $ task config uda.cost.label Cost urgency.uda.cost.coefficient=30 uda.color.type=string uda.color.label=Color uda.color.values=red,white,blue,green,yellow
   </p>
 
   
@@ -420,7 +420,7 @@
   </header>
 
   <p>
-  New Commands Here is the full command we will be using in this lesson. task report task show list task config report.list.labels
+  New Commands Here is the full command we will be using in this lesson.  task report task show list task config report.list.labels
   </p>
 
   
@@ -473,7 +473,7 @@
   </header>
 
   <p>
-  New Commands Here is the full command we will be using in this lesson. newcakefunction () { task add Bake cake for $1 due:$2 scheduled:due-4d wait:due-5d project:$3 task add buy eggs +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3 task add buy flour +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3 task add buy milk +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3 } alias newcake=newcakefunction
+  New Commands Here is the full command we will be using in this lesson.  newcakefunction () { task add Bake cake for $1 due:$2 scheduled:due-4d wait:due-5d project:$3 task add buy eggs +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3 task add buy flour +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3 task add buy milk +$1,grocery due:$2 scheduled:due-1d wait:-2d project:$3 } alias newcake=newcakefunction
   </p>
 
   
@@ -526,7 +526,8 @@
   </header>
 
   <p>
-  New Commands Configurations to the .bashrc file alias nt=&ldquo;task add $1&rdquo; $1 is an argument that you can send to command and it will process it where it is located. alias tl="task list" alias reload="source .bashrc" alias nt="task add $1" taskprojectfunction () { task $1 modify project:$2 } alias tproj=taskprojectfunction UPDATE: Monday, July 10, 2017 04:12 pm - I was absolutely wrong about this. Although Taskwarrior took the command it is not stored correctly.
+  New Commands Configurations to the .bashrc file alias nt=&ldquo;task add $1&rdquo; $1 is an argument that you can send to command and it will process it where it is located.
+alias tl="task list" alias reload="source .bashrc" alias nt="task add $1" taskprojectfunction () { task $1 modify project:$2 } alias tproj=taskprojectfunction  UPDATE: Monday, July 10, 2017 04:12 pm - I was absolutely wrong about this. Although Taskwarrior took the command it is not stored correctly.
   </p>
 
   
@@ -640,7 +641,9 @@
   </header>
 
   <p>
-  New Commands $ task {task id} modify priority:{priority level} {priority level} By default usually L, M, &amp; H for low, medium and high. $ task {task id} modify depends:{other task id} {other task id} The task id where one task depends on another. $ task {task id} modify project:{project name} {project name} The name of the project other tasks belong to.
+  New Commands $ task {task id} modify priority:{priority level} {priority level} By default usually L, M, &amp; H for low, medium and high.
+$ task {task id} modify depends:{other task id} {other task id} The task id where one task depends on another.
+$ task {task id} modify project:{project name} {project name} The name of the project other tasks belong to.
   </p>
 
   
@@ -693,7 +696,8 @@
   </header>
 
   <p>
-  New Commands $ task {task id} edit Line to add to the .bashrc file export EDITOR="nano" $ task {task id} annotate {additional information} {additional information} This is any text to add to the task.
+  New Commands $ task {task id} edit Line to add to the .bashrc file
+export EDITOR="nano" $ task {task id} annotate {additional information} {additional information} This is any text to add to the task.
   </p>
 
   
@@ -746,7 +750,8 @@
   </header>
 
   <p>
-  Taskwarrior Download https://taskwarrior.org/ Cygwin Download https://www.cygwin.com/ New Commands $ task $ task add {action item} {action item} Any item that will be a task. $ task list $ task {task id} delete {task id} The current ID for that task.
+  Taskwarrior Download https://taskwarrior.org/ Cygwin Download https://www.cygwin.com/  New Commands $ task $ task add {action item} {action item} Any item that will be a task.
+$ task list $ task {task id} delete {task id} The current ID for that task.
   </p>
 
   

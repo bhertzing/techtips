@@ -134,14 +134,14 @@
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/topics/linux/</loc>
-    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+    <loc>http://techtips.billhertzing.com/tags/linux/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/tags/linux/</loc>
-    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <loc>http://techtips.billhertzing.com/topics/linux/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,13 +200,13 @@
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/topics/taskwarrior/</loc>
+    <loc>http://techtips.billhertzing.com/tags/taskwarrior/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/tags/taskwarrior/</loc>
+    <loc>http://techtips.billhertzing.com/topics/taskwarrior/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -236,14 +236,14 @@
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/topics/windows/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <loc>http://techtips.billhertzing.com/tags/windows/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/tags/windows/</loc>
-    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <loc>http://techtips.billhertzing.com/topics/windows/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

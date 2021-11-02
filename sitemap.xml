@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://techtips.billhertzing.com/post/invent-a-word/</loc>
+    <lastmod>2021-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://techtips.billhertzing.com/post/2021-test-2/</loc>
     <lastmod>2021-10-31T00:00:00+00:00</lastmod>
   </url>
@@ -111,7 +116,19 @@
   
   <url>
     <loc>http://techtips.billhertzing.com/</loc>
-    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/bookmark/</loc>
+    <lastmod>2021-11-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/topics/bookmark/</loc>
+    <lastmod>2021-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -134,14 +151,20 @@
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/topics/linux/</loc>
-    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+    <loc>http://techtips.billhertzing.com/tags/link/</loc>
+    <lastmod>2021-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://techtips.billhertzing.com/tags/linux/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/topics/linux/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -171,7 +194,7 @@
   
   <url>
     <loc>http://techtips.billhertzing.com/post/</loc>
-    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,13 +223,13 @@
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/topics/taskwarrior/</loc>
+    <loc>http://techtips.billhertzing.com/tags/taskwarrior/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/tags/taskwarrior/</loc>
+    <loc>http://techtips.billhertzing.com/topics/taskwarrior/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -225,7 +248,7 @@
   
   <url>
     <loc>http://techtips.billhertzing.com/topics/</loc>
-    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -236,14 +259,14 @@
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/topics/windows/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <loc>http://techtips.billhertzing.com/tags/windows/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://techtips.billhertzing.com/tags/windows/</loc>
-    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <loc>http://techtips.billhertzing.com/topics/windows/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Bill Hertzing 2021.</copyright>
-    <lastBuildDate>Tue, 02 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://techtips.billhertzing.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What 3 Words</title>
+      <link>http://techtips.billhertzing.com/post/what-3-words/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://techtips.billhertzing.com/post/what-3-words/</guid>
+      <description>https://what3words.com/
+I am trying to find the purpose for this site. It maps out any place on the globe with three words. Esentially, it has divided the entire Earth in a grid and given a three word assignment to each square.
+For example: The Eiffel Tower is at prices.slippery.traps (Which is actually funny considering all the commerce around the landmark.)
+Other site examples:
+Eiffel Tower: ///prices.slippery.traps
+Trevi Fountain: ///received.switch.repeats
+Wrigly Field: ///flops.</description>
+    </item>
     
     <item>
       <title>Invent-a-Word</title>

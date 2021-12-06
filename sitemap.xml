@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://techtips.billhertzing.com/post/space-weather/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://techtips.billhertzing.com/post/what-3-words/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url>
@@ -121,19 +126,19 @@
   
   <url>
     <loc>http://techtips.billhertzing.com/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://techtips.billhertzing.com/tags/bookmark/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://techtips.billhertzing.com/topics/bookmark/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -157,7 +162,7 @@
   
   <url>
     <loc>http://techtips.billhertzing.com/tags/link/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -181,7 +186,7 @@
   
   <url>
     <loc>http://techtips.billhertzing.com/tags/map/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -205,7 +210,7 @@
   
   <url>
     <loc>http://techtips.billhertzing.com/post/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -224,6 +229,12 @@
   <url>
     <loc>http://techtips.billhertzing.com/tags/security/</loc>
     <lastmod>2017-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://techtips.billhertzing.com/tags/space/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -259,7 +270,7 @@
   
   <url>
     <loc>http://techtips.billhertzing.com/topics/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
